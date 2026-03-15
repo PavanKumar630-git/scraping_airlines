@@ -113,6 +113,46 @@
         "documentation": {}
     },
     {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "CommonViewer",
+        "importPath": "app.scraping.airindia_airlines.views",
+        "description": "app.scraping.airindia_airlines.views",
+        "isExtraImport": true,
+        "detail": "app.scraping.airindia_airlines.views",
+        "documentation": {}
+    },
+    {
         "label": "uuid",
         "kind": 6,
         "isExtraImport": true,
@@ -605,30 +645,6 @@
         "documentation": {}
     },
     {
-        "label": "DefaultRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
-        "isExtraImport": true,
-        "detail": "rest_framework.routers",
-        "documentation": {}
-    },
-    {
-        "label": "DefaultRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
-        "isExtraImport": true,
-        "detail": "rest_framework.routers",
-        "documentation": {}
-    },
-    {
-        "label": "DefaultRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
-        "isExtraImport": true,
-        "detail": "rest_framework.routers",
-        "documentation": {}
-    },
-    {
         "label": "Response",
         "importPath": "rest_framework.response",
         "description": "rest_framework.response",
@@ -970,7 +986,16 @@
         "kind": 2,
         "importPath": "airlines_main.urls",
         "description": "airlines_main.urls",
-        "peekOfCode": "def home(request):\n    return JsonResponse({\"message\": \"AirLines Scraper API Running\"})\nurlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\n        \"docs/\",\n        SpectacularSwaggerView.as_view(url_name=\"schema\"),\n        name=\"swagger-ui\",\n    ),",
+        "peekOfCode": "def home(request):\n    return JsonResponse({\"message\": \"AirLines Scraper API Running\"})\ncommon_router = DefaultRouter()\ncommon_router.register(\"common\", CommonViewer, basename=\"common\")\nurlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"docs/\", SpectacularSwaggerView.as_view(url_name=\"schema\"), name=\"swagger-ui\"),\n    # /common/soft-delete/\n    path(\"\", include(common_router.urls)),",
+        "detail": "airlines_main.urls",
+        "documentation": {}
+    },
+    {
+        "label": "common_router",
+        "kind": 5,
+        "importPath": "airlines_main.urls",
+        "description": "airlines_main.urls",
+        "peekOfCode": "common_router = DefaultRouter()\ncommon_router.register(\"common\", CommonViewer, basename=\"common\")\nurlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"docs/\", SpectacularSwaggerView.as_view(url_name=\"schema\"), name=\"swagger-ui\"),\n    # /common/soft-delete/\n    path(\"\", include(common_router.urls)),\n    # Airline specific\n    path(\"airindia/\", include(\"app.scraping.airindia_airlines.urls\")),",
         "detail": "airlines_main.urls",
         "documentation": {}
     },
@@ -979,7 +1004,7 @@
         "kind": 5,
         "importPath": "airlines_main.urls",
         "description": "airlines_main.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\n        \"docs/\",\n        SpectacularSwaggerView.as_view(url_name=\"schema\"),\n        name=\"swagger-ui\",\n    ),\n    path(\"airindia/\", include(\"app.scraping.airindia_airlines.urls\")),\n    # path(\"lufhansa/\", include(\"app.scraping.lufhansa_airlines.urls\")),",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"docs/\", SpectacularSwaggerView.as_view(url_name=\"schema\"), name=\"swagger-ui\"),\n    # /common/soft-delete/\n    path(\"\", include(common_router.urls)),\n    # Airline specific\n    path(\"airindia/\", include(\"app.scraping.airindia_airlines.urls\")),\n    path(\"srilanka/\", include(\"app.scraping.srilanka_airlines.urls\")),\n]",
         "detail": "airlines_main.urls",
         "documentation": {}
     },
@@ -1366,7 +1391,16 @@
         "kind": 6,
         "importPath": "app.scraping.airindia_airlines.serializers",
         "description": "app.scraping.airindia_airlines.serializers",
-        "peekOfCode": "class AirIndiaTokenDetails(serializers.Serializer):\n    pnr       = serializers.CharField()\n    last_name = serializers.CharField()\n# ════════════════════════════════════════════════════════════\n# SHARED\n# ════════════════════════════════════════════════════════════\nclass PointOfSaleSerializer(serializers.Serializer):\n    point_of_sale_id = serializers.CharField(allow_null=True)\n    country_code     = serializers.CharField(allow_null=True)\nclass TaxItemSerializer(serializers.Serializer):",
+        "peekOfCode": "class AirIndiaTokenDetails(serializers.Serializer):\n    pnr       = serializers.CharField()\n    last_name = serializers.CharField()\nclass AirIndiaDeleteDetails(serializers.Serializer):\n    pnr       = serializers.CharField()\n    ci_id = serializers.CharField()\n# ════════════════════════════════════════════════════════════\n# SHARED\n# ════════════════════════════════════════════════════════════\nclass PointOfSaleSerializer(serializers.Serializer):",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AirIndiaDeleteDetails",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class AirIndiaDeleteDetails(serializers.Serializer):\n    pnr       = serializers.CharField()\n    ci_id = serializers.CharField()\n# ════════════════════════════════════════════════════════════\n# SHARED\n# ════════════════════════════════════════════════════════════\nclass PointOfSaleSerializer(serializers.Serializer):\n    point_of_sale_id = serializers.CharField(allow_null=True)\n    country_code     = serializers.CharField(allow_null=True)\nclass TaxItemSerializer(serializers.Serializer):",
         "detail": "app.scraping.airindia_airlines.serializers",
         "documentation": {}
     },
@@ -1663,7 +1697,7 @@
         "kind": 5,
         "importPath": "app.scraping.airindia_airlines.urls",
         "description": "app.scraping.airindia_airlines.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"\", AirIndiaViewer, basename=\"magma\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"\", AirIndiaViewer, basename=\"airindia\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
         "detail": "app.scraping.airindia_airlines.urls",
         "documentation": {}
     },
@@ -1682,6 +1716,15 @@
         "importPath": "app.scraping.airindia_airlines.views",
         "description": "app.scraping.airindia_airlines.views",
         "peekOfCode": "class AirIndiaViewer(viewsets.ViewSet):\n    # @extend_schema(summary=\"AirIndia documents\")\n    # @action(detail=False, methods=[\"get\"], url_path=\"scrape\")\n    # def scrape(self, request):\n    #     data = AirIndiaController.scrape()\n    #     return Response(data)\n    # @extend_schema(summary=\"AirIndia\",\n    #     request=AirIndiaTokenDetails)\n    # @action(detail=False, methods=[\"post\"], url_path=\"login\")\n    # def login(self, request):",
+        "detail": "app.scraping.airindia_airlines.views",
+        "documentation": {}
+    },
+    {
+        "label": "CommonViewer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.views",
+        "description": "app.scraping.airindia_airlines.views",
+        "peekOfCode": "class CommonViewer(viewsets.ViewSet):\n    @extend_schema(summary=\"Delete PNR\",\n        request=AirIndiaDeleteDetails)\n    @action(detail=False, methods=[\"post\"], url_path=\"soft-delete\")\n    def delete_pnr_soft(self, request):\n        serializer = AirIndiaDeleteDetails(data=request.data)\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=400)\n        data = AirIndiaController.delete_booking_details(serializer.validated_data)\n        return Response(data)",
         "detail": "app.scraping.airindia_airlines.views",
         "documentation": {}
     },

@@ -134,3 +134,32 @@ class AirIndiaController:
         #         "status": "error",
         #         "message": str(e)
         #     }
+
+    @staticmethod
+    def delete_booking_details(payload):
+        pnr = payload.get("pnr")
+        ci_id = payload.get("ci_id")
+
+        if not pnr or not ci_id:
+            return {
+                "status": "error",
+                "message": "pnr and ci_id required"
+            }
+        validpnr = validate_pnr(pnr)
+        if not validpnr:
+            return {
+                "status": "error",
+                "message": "Invalid PNR format. PNR should be 6 characters, alphanumeric and uppercase."
+            }
+        try:
+            mongo = MongoService()
+
+            # Check by PNR + airline before ingesting
+            delete_msg = mongo.soft_delete(pnr, ci_id)
+            return delete_msg
+
+        except Exception as e:
+            return {
+                "status": "error",
+                "message": str(e)
+            }

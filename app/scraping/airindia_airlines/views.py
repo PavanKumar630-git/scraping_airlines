@@ -2,7 +2,7 @@
 from rest_framework.response import Response
 
 from .controllers import AirIndiaController
-from .serializers import AirIndiaTokenDetails, AirIndiaSerializer
+from .serializers import AirIndiaTokenDetails, AirIndiaSerializer,AirIndiaDeleteDetails
 
 
 from drf_yasg.utils import swagger_auto_schema
@@ -53,3 +53,19 @@ class AirIndiaViewer(viewsets.ViewSet):
         data = AirIndiaController.get_booking_details(serializer.validated_data)
 
         return Response(data)
+    
+@extend_schema(tags=["Common APIs"])
+class CommonViewer(viewsets.ViewSet):
+    @extend_schema(summary="Delete PNR",
+        request=AirIndiaDeleteDetails)
+    @action(detail=False, methods=["post"], url_path="soft-delete")
+    def delete_pnr_soft(self, request):
+        serializer = AirIndiaDeleteDetails(data=request.data)
+
+        if not serializer.is_valid():
+            return Response(serializer.errors, status=400)
+
+        data = AirIndiaController.delete_booking_details(serializer.validated_data)
+
+        return Response(data)
+    

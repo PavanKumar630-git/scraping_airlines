@@ -26,6 +26,9 @@ class AirIndiaTokenDetails(serializers.Serializer):
     pnr       = serializers.CharField()
     last_name = serializers.CharField()
 
+class AirIndiaDeleteDetails(serializers.Serializer):
+    pnr       = serializers.CharField()
+    ci_id = serializers.CharField()
 
 # ════════════════════════════════════════════════════════════
 # SHARED
