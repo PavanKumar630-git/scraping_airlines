@@ -244,6 +244,7 @@ class BookingIngestionService:
             "pnr": pnr,
             "last_name": last_name,
             "airline": "Air India",
+            "is_deleted": False,
             "raw_data": self.raw,
             "created_at": datetime.utcnow()
         })
@@ -263,7 +264,7 @@ class BookingIngestionService:
             "pnr": pnr,
             "last_name": last_name,
             "airline": "Air India",
-
+            "is_deleted": False,
             "order_id": self.data.get("id"),
             "creation_datetime": self.data.get("creationDateTime"),
             "last_modification_datetime": self.data.get("lastModificationDateTime"),
@@ -335,6 +336,7 @@ class BookingIngestionService:
                 "pnr": pnr,
                 "last_name": last_name,
                 "airline": "Air India",
+                "is_deleted": False,
                 "traveler_id": traveler_id,
                 "passenger_type_code": traveler.get("passengerTypeCode"),
 
@@ -380,6 +382,7 @@ class BookingIngestionService:
                     "pnr": pnr,
                     "last_name": last_name,
                     "airline": "Air India",
+                    "is_deleted": False,
                     "air_bound_id": bound.get("airBoundId"),
 
                     "origin": bound.get("originLocationCode"),
@@ -425,6 +428,7 @@ class BookingIngestionService:
                 "pnr": pnr,
                 "last_name": last_name,
                 "airline": "Air India",
+                "is_deleted": False,
                 "ticket_number": doc.get("id"),  # FIXED
                 "traveler_ids": doc.get("travelerIds", []),
 

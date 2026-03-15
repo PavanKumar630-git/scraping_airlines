@@ -60,7 +60,8 @@ class SriLankanIngestionService:
         """
         self.raw_col.insert_one({
             "ci_id":      self.ci_id,
-            "airline":    "SriLankan",
+            "airline":      "SriLankan",
+            "is_deleted":False,
             "pnr":        pnr,
             "last_name":  last_name,
             "raw_data":   self.raw,
@@ -91,7 +92,7 @@ class SriLankanIngestionService:
             "parent_ci_id": self.ci_id,
             "ci_id":        each_ci_id,
             "airline":      "SriLankan",
-
+            "is_deleted":False,
             "pnr":          pnr,
             "last_name":    last_name,
 
@@ -182,7 +183,7 @@ class SriLankanIngestionService:
                 "parent_ci_id": self.ci_id,
                 "ci_id":        each_ci_id,
                 "airline":      "SriLankan",
-
+                "is_deleted":False,
                 "pnr":       pnr,
                 "last_name": last_name,
 
@@ -236,7 +237,7 @@ class SriLankanIngestionService:
                     "parent_ci_id": self.ci_id,
                     "ci_id":        each_ci_id,
                     "airline":      "SriLankan",
-
+                    "is_deleted":False,
                     "pnr":       pnr,
                     "last_name": last_name,
 
@@ -309,10 +310,10 @@ class SriLankanIngestionService:
 
             fares.append({
                 "parent_ci_id": self.ci_id,
-                "ci_id":        each_ci_id,
+                "ci_id": each_ci_id,
                 "airline":      "SriLankan",
-
-                "pnr":       pnr,
+                "is_deleted":False,
+                "pnr": pnr,
                 "last_name": last_name,
 
                 "ticket_number": doc.get("id"),
