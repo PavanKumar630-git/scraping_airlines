@@ -1744,7 +1744,7 @@
         "kind": 6,
         "importPath": "app.scraping.lufhansa_airlines.views",
         "description": "app.scraping.lufhansa_airlines.views",
-        "peekOfCode": "class LufhansaViewer(viewsets.ViewSet):\n    @extend_schema(summary=\"Lufhansa\",\n        request=LufhansaTokenDetails)\n    @action(detail=False, methods=[\"post\"], url_path=\"get-details\")\n    def login(self, request):\n        serializer = LufhansaTokenDetails(data=request.data)\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=400)\n        data = LufhansaController.get_booking_details(serializer.validated_data)\n        return Response(data)",
+        "peekOfCode": "class LufhansaViewer(viewsets.ViewSet):\n    @extend_schema(summary=\"Lufhansa Airlines\",\n        request=LufhansaTokenDetails)\n    @action(detail=False, methods=[\"post\"], url_path=\"get-details\")\n    def login(self, request):\n        serializer = LufhansaTokenDetails(data=request.data)\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=400)\n        data = LufhansaController.get_booking_details(serializer.validated_data)\n        return Response(data)",
         "detail": "app.scraping.lufhansa_airlines.views",
         "documentation": {}
     },

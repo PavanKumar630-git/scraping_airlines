@@ -41,7 +41,7 @@ class AirIndiaViewer(viewsets.ViewSet):
 
     #     return Response(data)
     
-    @extend_schema(summary="AirIndia",
+    @extend_schema(summary="AirIndia Airlines",
         request=AirIndiaTokenDetails)
     @action(detail=False, methods=["post"], url_path="get-details")
     def login(self, request):

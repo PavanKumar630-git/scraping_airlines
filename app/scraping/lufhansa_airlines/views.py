@@ -18,7 +18,7 @@ from drf_spectacular.utils import extend_schema
 @extend_schema(tags=["Lufhansa Airlines"])
 class LufhansaViewer(viewsets.ViewSet):
     
-    @extend_schema(summary="Lufhansa",
+    @extend_schema(summary="Lufhansa Airlines",
         request=LufhansaTokenDetails)
     @action(detail=False, methods=["post"], url_path="get-details")
     def login(self, request):
