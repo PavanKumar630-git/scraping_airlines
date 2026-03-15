@@ -1,0 +1,1137 @@
+{
+    "warnings": [
+        {
+            "code": "65227",
+            "title": "FLIGHT DISRUPTION HAS OCCURRED: CHECK THE ORDER CONTENT"
+        }
+    ],
+    "data": {
+        "id": "98RZ64",
+        "creationPointOfSale": {
+            "pointOfSaleId": "DELC32326",
+            "countryCode": "IN"
+        },
+        "servicingPointOfSale": {
+            "pointOfSaleId": "DELAI08AA",
+            "countryCode": "IN"
+        },
+        "creationDateTime": "2026-02-18T08: 02: 00.000Z",
+        "lastModificationDateTime": "2026-03-05T12: 02: 00.000Z",
+        "isGroupBooking": "False",
+        "air": {
+            "prices": {
+                "unitPrices": [
+                    {
+                        "travelerIds": [
+                            "PT1"
+                        ],
+                        "flightIds": [
+                            "ST1",
+                            "ST2"
+                        ],
+                        "prices": [
+                            {
+                                "base": {
+                                    "value": 466735,
+                                    "currencyCode": "INR"
+                                },
+                                "baseDetails": {
+                                    "surcharges": [
+                                        {
+                                            "value": 162111,
+                                            "currencyCode": "INR",
+                                            "code": "Q"
+                                        }
+                                    ]
+                                },
+                                "total": {
+                                    "value": 592699,
+                                    "currencyCode": "INR"
+                                },
+                                "taxes": [
+                                    {
+                                        "value": 1363,
+                                        "currencyCode": "INR",
+                                        "code": "INDO"
+                                    },
+                                    {
+                                        "value": 88968,
+                                        "currencyCode": "INR",
+                                        "code": "K3CB"
+                                    },
+                                    {
+                                        "value": 1285,
+                                        "currencyCode": "INR",
+                                        "code": "P2AF"
+                                    },
+                                    {
+                                        "value": 508,
+                                        "currencyCode": "INR",
+                                        "code": "AYSE"
+                                    },
+                                    {
+                                        "value": 2123,
+                                        "currencyCode": "INR",
+                                        "code": "USAP"
+                                    },
+                                    {
+                                        "value": 2123,
+                                        "currencyCode": "INR",
+                                        "code": "USAS"
+                                    },
+                                    {
+                                        "value": 349,
+                                        "currencyCode": "INR",
+                                        "code": "XACO"
+                                    },
+                                    {
+                                        "value": 635,
+                                        "currencyCode": "INR",
+                                        "code": "XYCR"
+                                    },
+                                    {
+                                        "value": 671,
+                                        "currencyCode": "INR",
+                                        "code": "YCAE"
+                                    },
+                                    {
+                                        "value": 409,
+                                        "currencyCode": "INR",
+                                        "code": "XF"
+                                    }
+                                ],
+                                "totalTaxes": {
+                                    "value": 98434,
+                                    "currencyCode": "INR"
+                                },
+                                "surcharges": [
+                                    {
+                                        "value": 27210,
+                                        "currencyCode": "INR",
+                                        "code": "YQAC"
+                                    },
+                                    {
+                                        "value": 320,
+                                        "currencyCode": "INR",
+                                        "code": "YRVA"
+                                    }
+                                ],
+                                "totalSurcharges": {
+                                    "value": 27530,
+                                    "currencyCode": "INR"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrices": [
+                    {
+                        "base": {
+                            "value": 466735,
+                            "currencyCode": "INR"
+                        },
+                        "total": {
+                            "value": 592699,
+                            "currencyCode": "INR"
+                        },
+                        "totalTaxes": {
+                            "value": 125964,
+                            "currencyCode": "INR"
+                        }
+                    }
+                ]
+            },
+            "bounds": [
+                {
+                    "airBoundId": "1",
+                    "fareFamilyCode": "BUSVALU",
+                    "originLocationCode": "DEL",
+                    "destinationLocationCode": "JFK",
+                    "flights": [
+                        {
+                            "id": "ST1",
+                            "cabin": "business",
+                            "bookingClass": "J",
+                            "statusCode": "HK",
+                            "fareFamilyCode": "BUSVALU",
+                            "commercialFareFamilyCode": "CFFAI"
+                        }
+                    ],
+                    "duration": 62400
+                },
+                {
+                    "airBoundId": "2QUlf838613f2e8",
+                    "fareFamilyCode": "BUSVALU",
+                    "originLocationCode": "SFO",
+                    "destinationLocationCode": "DEL",
+                    "flights": [
+                        {
+                            "id": "ST2",
+                            "cabin": "business",
+                            "bookingClass": "Z",
+                            "statusCode": "TK",
+                            "arrivalDaysDifference": 1,
+                            "fareFamilyCode": "BUSVALU",
+                            "commercialFareFamilyCode": "CFFAI"
+                        }
+                    ],
+                    "duration": 72000,
+                    "disruptionStatus": {
+                        "boundStatus": "disrupted",
+                        "isInCheckInTimeWindow": "False",
+                        "originalFlights": [
+                            {
+                                "id": "ST2",
+                                "cabin": "business",
+                                "bookingClass": "Z",
+                                "statusCode": "TK",
+                                "arrivalDaysDifference": 1,
+                                "fareFamilyCode": "BUSVALU",
+                                "commercialFareFamilyCode": "CFFAI"
+                            }
+                        ],
+                        "departure": {
+                            "locationCode": "SFO",
+                            "sameAirport": "True",
+                            "sameCity": "True",
+                            "sameDay": "True",
+                            "deltaTime": 1800
+                        },
+                        "arrival": {
+                            "locationCode": "DEL",
+                            "sameAirport": "True",
+                            "sameCity": "True",
+                            "sameDay": "True",
+                            "deltaTime": 0
+                        },
+                        "connection": {
+                            "status": "ok",
+                            "delta": 0,
+                            "sameViaPoint": "True",
+                            "deltaTime": 0
+                        },
+                        "duration": 73800
+                    }
+                }
+            ],
+            "fareInfos": [
+                {
+                    "fareClass": "JK2CW7DY",
+                    "travelerIds": [
+                        "PT1"
+                    ],
+                    "flightIds": [
+                        "ST1"
+                    ]
+                },
+                {
+                    "fareClass": "ZL2CW7DY",
+                    "travelerIds": [
+                        "PT1"
+                    ],
+                    "flightIds": [
+                        "ST2"
+                    ]
+                }
+            ],
+            "freeCheckedBaggageAllowanceItems": [
+                {
+                    "details": {
+                        "type": "piece",
+                        "quantity": 2
+                    },
+                    "flightIds": [
+                        "ST1"
+                    ],
+                    "travelerIds": [
+                        "PT1"
+                    ]
+                },
+                {
+                    "details": {
+                        "type": "piece",
+                        "quantity": 2
+                    },
+                    "flightIds": [
+                        "ST2"
+                    ],
+                    "travelerIds": [
+                        "PT1"
+                    ]
+                }
+            ]
+        },
+        "services": [
+            {
+                "id": "OT14",
+                "descriptions": [
+                    {
+                        "type": "shortText",
+                        "content": "AVML"
+                    }
+                ],
+                "quantity": 1,
+                "tags": [
+                    "MEAL"
+                ],
+                "flightIds": [
+                    "ST1"
+                ],
+                "statusCode": "HK",
+                "isChargeable": "False"
+            },
+            {
+                "id": "OT15",
+                "descriptions": [
+                    {
+                        "type": "shortText",
+                        "content": "AVML"
+                    }
+                ],
+                "quantity": 1,
+                "tags": [
+                    "MEAL"
+                ],
+                "flightIds": [
+                    "ST2"
+                ],
+                "statusCode": "HK",
+                "isChargeable": "False"
+            }
+        ],
+        "seats": [
+            {
+                "id": "OT19",
+                "flightId": "ST2",
+                "seatSelections": [
+                    {
+                        "seatNumber": "8C",
+                        "travelerId": "PT1",
+                        "seatCharacteristics": [
+                            {
+                                "code": "N"
+                            },
+                            {
+                                "code": "A"
+                            },
+                            {
+                                "code": "BS"
+                            }
+                        ],
+                        "isChargeable": "False"
+                    }
+                ],
+                "statusCode": "HK"
+            },
+            {
+                "id": "OT16",
+                "flightId": "ST1",
+                "seatSelections": [
+                    {
+                        "seatNumber": "5A",
+                        "travelerId": "PT1",
+                        "seatCharacteristics": [
+                            {
+                                "code": "N"
+                            },
+                            {
+                                "code": "W"
+                            },
+                            {
+                                "code": "A"
+                            },
+                            {
+                                "code": "BC"
+                            }
+                        ],
+                        "isChargeable": "False"
+                    }
+                ],
+                "statusCode": "HK"
+            }
+        ],
+        "travelers": [
+            {
+                "passengerTypeCode": "ADT",
+                "id": "PT1",
+                "names": [
+                    {
+                        "firstName": "Arun Kumar",
+                        "lastName": "Purohit",
+                        "title": "MR",
+                        "nameType": "universal",
+                        "isPreferred": "True"
+                    }
+                ],
+                "regulatoryDetails": [
+                    {
+                        "id": "OT24",
+                        "airlineCode": "AI",
+                        "regulatoryApisType": "ApisDetailRegulatoryDocument",
+                        "regulatoryDocument": {
+                            "number": "X3454032",
+                            "expiryDate": "2034-02-04",
+                            "issuanceCountryCode": "IND",
+                            "name": {
+                                "firstName": "ARUN KUMAR MR",
+                                "lastName": "PUROHIT",
+                                "nameType": "universal"
+                            },
+                            "nationalityCode": "IN",
+                            "gender": "male",
+                            "birthDate": "1952-08-15",
+                            "documentType": "passport"
+                        }
+                    }
+                ]
+            }
+        ],
+        "contacts": [
+            {
+                "id": "OT5",
+                "category": "other",
+                "contactType": "Phone",
+                "deviceType": "landline",
+                "purpose": "standard",
+                "number": "DEL 23415261/23411309/23414053 - BIRDS WING - A",
+                "freeFlowText": "DEL 23415261/23411309/23414053 - BIRDS WING - A"
+            },
+            {
+                "id": "OT23",
+                "category": "other",
+                "contactType": "Email",
+                "purpose": "standard",
+                "address": "SECURED DATA"
+            },
+            {
+                "id": "OT13",
+                "category": "other",
+                "contactType": "Phone",
+                "deviceType": "mobile",
+                "purpose": "notification",
+                "countryPhoneExtension": "91",
+                "number": "9810187747",
+                "freeFlowText": "9810187747"
+            }
+        ],
+        "travelDocuments": [
+            {
+                "flightIds": [
+                    "ST1",
+                    "ST2"
+                ],
+                "travelerIds": [
+                    "PT1"
+                ],
+                "id": "0985013887401",
+                "documentType": "eticket",
+                "endorsement": "NON-END/CHANGE CANCELLATION/NO-SHOW PENALTY MAY APPLY AS PER FARE RULES -BG AI",
+                "price": {
+                    "base": 466735,
+                    "total": 592699,
+                    "currencyCode": "INR",
+                    "taxes": [
+                        {
+                            "value": 1363,
+                            "currencyCode": "INR",
+                            "code": "IN"
+                        },
+                        {
+                            "value": 88968,
+                            "currencyCode": "INR",
+                            "code": "K3"
+                        },
+                        {
+                            "value": 1285,
+                            "currencyCode": "INR",
+                            "code": "P2"
+                        },
+                        {
+                            "value": 508,
+                            "currencyCode": "INR",
+                            "code": "AY"
+                        },
+                        {
+                            "value": 2123,
+                            "currencyCode": "INR",
+                            "code": "US"
+                        },
+                        {
+                            "value": 2123,
+                            "currencyCode": "INR",
+                            "code": "US"
+                        },
+                        {
+                            "value": 349,
+                            "currencyCode": "INR",
+                            "code": "XA"
+                        },
+                        {
+                            "value": 635,
+                            "currencyCode": "INR",
+                            "code": "XY"
+                        },
+                        {
+                            "value": 671,
+                            "currencyCode": "INR",
+                            "code": "YC"
+                        },
+                        {
+                            "value": 409,
+                            "currencyCode": "INR",
+                            "code": "XF"
+                        }
+                    ],
+                    "totalTaxes": 98434,
+                    "surcharges": [
+                        {
+                            "value": 27210,
+                            "currencyCode": "INR",
+                            "code": "YQ"
+                        },
+                        {
+                            "value": 320,
+                            "currencyCode": "INR",
+                            "code": "YR"
+                        }
+                    ],
+                    "totalSurcharges": 27530,
+                    "conditions": {
+                        "tourCode": "AISME002"
+                    },
+                    "priceBreakdowns": [
+                        {
+                            "currencyCode": "NUC",
+                            "amount": "1742.60",
+                            "value": 174260,
+                            "priceQualifier": "BASE_FARE",
+                            "priceBreakdownType": "PER_FARE_FAMILY",
+                            "applicability": [
+                                {
+                                    "id": "fareInfo-1",
+                                    "type": "fareInfo"
+                                }
+                            ]
+                        },
+                        {
+                            "currencyCode": "NUC",
+                            "amount": "1639.77",
+                            "value": 163977,
+                            "priceQualifier": "BASE_FARE",
+                            "priceBreakdownType": "PER_FARE_FAMILY",
+                            "applicability": [
+                                {
+                                    "id": "fareInfo-3",
+                                    "type": "fareInfo"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "paymentTransactions": [
+                    {
+                        "paymentMethod": {
+                            "id": "CASH",
+                            "paymentType": "CustomPayment"
+                        },
+                        "amount": {
+                            "value": 592699,
+                            "currencyCode": "INR"
+                        }
+                    }
+                ],
+                "fareInfos": [
+                    {
+                        "id": "fareInfo-1",
+                        "fareClass": "JK2CW7DY",
+                        "fareFamilyCode": "BUSVALU",
+                        "couponStatus": "open",
+                        "freeCheckedBaggageAllowanceItems": [
+                            {
+                                "details": {
+                                    "type": "piece",
+                                    "quantity": 2
+                                }
+                            }
+                        ],
+                        "flight": {
+                            "marketingAirlineCode": "AI",
+                            "marketingFlightNumber": "101",
+                            "id": "ST1",
+                            "departure": {
+                                "locationCode": "DEL",
+                                "dateTime": "2026-03-22T02: 00: 00.000+05: 30"
+                            },
+                            "arrival": {
+                                "locationCode": "JFK",
+                                "dateTime": "2026-03-22T09: 50: 00.000-04: 00"
+                            }
+                        }
+                    },
+                    {
+                        "id": "fareInfo-3",
+                        "fareClass": "ZL2CW7DY",
+                        "fareFamilyCode": "BUSVALU",
+                        "couponStatus": "open",
+                        "freeCheckedBaggageAllowanceItems": [
+                            {
+                                "details": {
+                                    "type": "piece",
+                                    "quantity": 2
+                                }
+                            }
+                        ],
+                        "flight": {
+                            "marketingAirlineCode": "AI",
+                            "marketingFlightNumber": "174",
+                            "id": "ST2",
+                            "departure": {
+                                "locationCode": "SFO",
+                                "dateTime": "2026-04-04T10: 00: 00.000-07: 00"
+                            },
+                            "arrival": {
+                                "locationCode": "DEL",
+                                "dateTime": "2026-04-05T19: 00: 00.000+05: 30"
+                            }
+                        }
+                    }
+                ],
+                "creation": {
+                    "triggerEventName": "issuance",
+                    "localDateTime": "2026-02-19T00: 00: 00.000+05: 30",
+                    "office": {
+                        "officeId": "QJUI228BK",
+                        "location": {
+                            "cityCode": "QJU"
+                        }
+                    },
+                    "location": {
+                        "cityCode": "QJU"
+                    }
+                },
+                "areCouponsAndSegmentsInSync": "True",
+                "status": "ISSUED"
+            }
+        ],
+        "remarks": [
+            {
+                "id": "OT45",
+                "remarkType": "GeneralRemark",
+                "freetext": "WHATSAPP NOTIFICATION SENT 919810187747 05MAR26 11: 59: 00 INVOLUNTARY CHANGE IN STD."
+            },
+            {
+                "id": "OT4",
+                "remarkType": "GeneralRemark",
+                "freetext": "NOTIFY PASSENGER PRIOR TO TICKET PURCHASE & CHECK-IN: FEDERAL LAWS FORBID THE CARRIAGE OF HAZARDOUS MATERIALS - GGAMAUSHAZ",
+                "flightIds": [
+                    "ST1",
+                    "ST2"
+                ]
+            },
+            {
+                "id": "OT46",
+                "remarkType": "GeneralRemark",
+                "freetext": "SMS NOTIFICATION SENT 234152612341130923414053 05MAR26 12: 01: 00 INVOLUNTARY CHANGE IN STD."
+            }
+        ],
+        "specialServiceRequests": [
+            {
+                "id": "OT13",
+                "code": "CTCM",
+                "airlineCode": "AI",
+                "statusCode": "HK",
+                "quantity": 1,
+                "freetext": "919810187747"
+            },
+            {
+                "id": "OT14",
+                "code": "AVML",
+                "airlineCode": "AI",
+                "statusCode": "HK",
+                "quantity": 1,
+                "flightIds": [
+                    "ST1"
+                ]
+            },
+            {
+                "id": "OT15",
+                "code": "AVML",
+                "airlineCode": "AI",
+                "statusCode": "HK",
+                "quantity": 1,
+                "flightIds": [
+                    "ST2"
+                ]
+            },
+            {
+                "id": "OT16",
+                "code": "RQST",
+                "airlineCode": "AI",
+                "statusCode": "HK",
+                "quantity": 1,
+                "travelerIds": [
+                    "PT1"
+                ],
+                "flightIds": [
+                    "ST1"
+                ]
+            },
+            {
+                "id": "OT19",
+                "code": "RQST",
+                "airlineCode": "AI",
+                "statusCode": "HK",
+                "quantity": 1,
+                "travelerIds": [
+                    "PT1"
+                ],
+                "flightIds": [
+                    "ST2"
+                ]
+            },
+            {
+                "id": "OT24",
+                "code": "DOCS",
+                "airlineCode": "AI",
+                "statusCode": "HK",
+                "quantity": 1,
+                "freetext": "P/IND/X3454032/IN/15AUG52/M/04FEB34/PUROHIT/ARUN KUMAR MR",
+                "travelerIds": [
+                    "PT1"
+                ]
+            },
+            {
+                "id": "OT43",
+                "code": "OTHS",
+                "airlineCode": "1A",
+                "freetext": "TIMING CHANGE AI174/04APR26"
+            }
+        ],
+        "fareElements": [
+            {
+                "id": "OT31",
+                "code": "FT",
+                "text": "PAX *F*AISME002",
+                "travelerIds": [
+                    "PT1"
+                ],
+                "flightIds": [
+                    "ST1",
+                    "ST2"
+                ]
+            }
+        ],
+        "paymentRecords": [
+            {
+                "id": "FPT35",
+                "paymentTransactions": [
+                    {
+                        "paymentMethod": {
+                            "id": "CASH",
+                            "paymentType": "CustomPayment"
+                        },
+                        "transactionId": "FPT35-1"
+                    }
+                ]
+            }
+        ],
+        "orderEligibilities": {
+            "acknowledge": [
+                {
+                    "airBoundId": "1",
+                    "disruption": {
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "39408",
+                                "title": "Acknowledge disruption functionality is not enabled."
+                            }
+                        ]
+                    },
+                    "waitlistConfirmation": {
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "39408",
+                                "title": "Acknowledge waitlist confirmation functionality is not enabled."
+                            }
+                        ]
+                    },
+                    "seats": {
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "39408",
+                                "title": "Acknowledge seat functionality is not enabled."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "airBoundId": "2QUlf838613f2e8",
+                    "disruption": {
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "39408",
+                                "title": "Acknowledge disruption functionality is not enabled."
+                            }
+                        ]
+                    },
+                    "waitlistConfirmation": {
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "39408",
+                                "title": "Acknowledge waitlist confirmation functionality is not enabled."
+                            }
+                        ]
+                    },
+                    "seats": {
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "39408",
+                                "title": "Acknowledge seat functionality is not enabled."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "cancel": {
+                "isEligible": "False"
+            },
+            "cancelAndRefund": {
+                "isEligible": "False",
+                "nonEligibilityReasons": [
+                    {
+                        "code": "024",
+                        "title": "Voluntary refund not possible on disrupted flights."
+                    }
+                ]
+            },
+            "change": [
+                {
+                    "airBoundId": "1",
+                    "flightIds": [
+                        "ST1"
+                    ],
+                    "isEligible": "False",
+                    "nonEligibilityReasons": [
+                        {
+                            "code": "014",
+                            "title": "DISRUPTED ORDER"
+                        }
+                    ],
+                    "nonEligibilityReason": "flightIsDisrupted"
+                },
+                {
+                    "airBoundId": "2QUlf838613f2e8",
+                    "flightIds": [
+                        "ST2"
+                    ],
+                    "isEligible": "False",
+                    "nonEligibilityReasons": [
+                        {
+                            "code": "014",
+                            "title": "DISRUPTED ORDER"
+                        }
+                    ],
+                    "nonEligibilityReason": "flightIsDisrupted"
+                }
+            ],
+            "flightReaccommodation": {
+                "acknowledge": [
+                    {
+                        "airBoundId": "1",
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "39408",
+                                "title": "Acknowledge disruption functionality is not enabled."
+                            }
+                        ]
+                    },
+                    {
+                        "airBoundId": "2QUlf838613f2e8",
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "39408",
+                                "title": "Acknowledge disruption functionality is not enabled."
+                            }
+                        ]
+                    }
+                ],
+                "change": [
+                    {
+                        "airBoundId": "1",
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "65211",
+                                "title": "FUNCTIONALITY NOT ENABLED"
+                            }
+                        ]
+                    },
+                    {
+                        "airBoundId": "2QUlf838613f2e8",
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "65211",
+                                "title": "FUNCTIONALITY NOT ENABLED"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nameChange": {
+                "nameModification": [
+                    {
+                        "travelerIds": [
+                            "PT1"
+                        ],
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "001",
+                                "title": "NAME UPDATE NOT ALLOWED"
+                            }
+                        ]
+                    }
+                ],
+                "passengerChange": [
+                    {
+                        "travelerIds": [
+                            "PT1"
+                        ],
+                        "isEligible": "False",
+                        "nonEligibilityReasons": [
+                            {
+                                "code": "011",
+                                "title": "PASSENGER CHANGE NOT ALLOWED"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "seatChange": [
+                {
+                    "isEligible": "False",
+                    "nonEligibilityReasons": [
+                        {
+                            "code": "023",
+                            "title": "SEAT CHANGE NOT ALLOWED"
+                        },
+                        {
+                            "code": "014",
+                            "title": "DISRUPTED ORDER"
+                        }
+                    ]
+                }
+            ],
+            "serviceChange": [
+                {
+                    "isEligible": "False",
+                    "nonEligibilityReasons": [
+                        {
+                            "code": "014",
+                            "title": "DISRUPTED ORDER"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "dictionaries": {
+        "location": {
+            "CCU": {
+                "type": "airport",
+                "airportName": "SUBHAS CHANDRA BOSE",
+                "cityCode": "CCU",
+                "cityName": "KOLKATA",
+                "stateCode": "WB",
+                "countryCode": "IN",
+                "timeZone": "UTC+0530"
+            },
+            "NYC": {
+                "type": "city",
+                "cityCode": "NYC",
+                "cityName": "NEW YORK",
+                "stateCode": "NY",
+                "countryCode": "US",
+                "timeZone": "UTC-0500"
+            },
+            "DEL": {
+                "type": "airport",
+                "airportName": "INDIRA GANDHI INTL",
+                "cityCode": "DEL",
+                "cityName": "DELHI",
+                "stateCode": "DL",
+                "countryCode": "IN",
+                "timeZone": "UTC+0530"
+            },
+            "SFO": {
+                "type": "airport",
+                "airportName": "SAN FRANCISCO INTL",
+                "cityCode": "SFO",
+                "cityName": "SAN FRANCISCO",
+                "stateCode": "CA",
+                "countryCode": "US",
+                "timeZone": "UTC-0800"
+            },
+            "QJU": {
+                "type": "airport",
+                "airportName": "JALANDHAR",
+                "cityCode": "QJU",
+                "cityName": "JALANDHAR",
+                "stateCode": "PB",
+                "countryCode": "IN",
+                "timeZone": "UTC+0530"
+            },
+            "JFK": {
+                "type": "airport",
+                "airportName": "JOHN F KENNEDY INTL",
+                "cityCode": "NYC",
+                "stateCode": "NY",
+                "countryCode": "US",
+                "timeZone": "UTC-0500"
+            }
+        },
+        "country": {
+            "IN": "INDIA",
+            "US": "UNITED STATES OF AMERICA"
+        },
+        "airline": {
+            "AI": "AIR INDIA"
+        },
+        "aircraft": {
+            "359": "AIRBUS A350-900",
+            "77W": "BOEING 777-300ER"
+        },
+        "flight": {
+            "ST2": {
+                "marketingAirlineCode": "AI",
+                "operatingAirlineCode": "AI",
+                "marketingFlightNumber": "174",
+                "operatingAirlineFlightNumber": "174",
+                "departure": {
+                    "locationCode": "SFO",
+                    "dateTime": "2026-04-04T10: 30: 00.000-07: 00",
+                    "terminal": "I"
+                },
+                "arrival": {
+                    "locationCode": "DEL",
+                    "dateTime": "2026-04-05T19: 00: 00.000+05: 30",
+                    "terminal": "3"
+                },
+                "aircraftCode": "77W",
+                "duration": 72000,
+                "isOpenSegment": "False",
+                "isInformational": "False",
+                "secureFlightIndicator": "True",
+                "stops": [
+                    {
+                        "locationCode": "CCU",
+                        "duration": 2100,
+                        "isChangeOfGauge": "False",
+                        "arrivalDateTime": "2026-04-05T16: 00: 00.000+05: 30",
+                        "departureDateTime": "2026-04-05T16: 35: 00.000+05: 30"
+                    }
+                ],
+                "flightStatus": "scheduled",
+                "aircraftConfigurationVersion": "77N"
+            },
+            "ST1": {
+                "marketingAirlineCode": "AI",
+                "operatingAirlineCode": "AI",
+                "marketingFlightNumber": "101",
+                "operatingAirlineFlightNumber": "101",
+                "departure": {
+                    "locationCode": "DEL",
+                    "dateTime": "2026-03-22T02: 00: 00.000+05: 30",
+                    "terminal": "3"
+                },
+                "arrival": {
+                    "locationCode": "JFK",
+                    "dateTime": "2026-03-22T09: 50: 00.000-04: 00",
+                    "terminal": "4"
+                },
+                "aircraftCode": "359",
+                "duration": 62400,
+                "isOpenSegment": "False",
+                "isInformational": "False",
+                "secureFlightIndicator": "True",
+                "flightStatus": "scheduled",
+                "aircraftConfigurationVersion": "359"
+            }
+        },
+        "tax": {
+            "XY": "XY",
+            "P2AF": "P2AF",
+            "P2": "P2",
+            "K3CB": "K3CB",
+            "IN": "IN",
+            "YCAE": "YCAE",
+            "K3": "K3",
+            "XA": "XA",
+            "USAP": "USAP",
+            "YC": "YC",
+            "YRVA": "YRVA",
+            "XF": "XF",
+            "INDO": "INDO",
+            "YQAC": "YQAC",
+            "AYSE": "AYSE",
+            "USAS": "USAS",
+            "AY": "AY",
+            "YQ": "YQ",
+            "XYCR": "XYCR",
+            "YR": "YR",
+            "XACO": "XACO",
+            "US": "US"
+        },
+        "currency": {
+            "INR": {
+                "name": "INDIAN RUPEE",
+                "decimalPlaces": 0
+            }
+        },
+        "seatCharacteristic": {
+            "A": {
+                "code": "A",
+                "name": "Aisle seat"
+            },
+            "W": {
+                "code": "W",
+                "name": "Window seat"
+            },
+            "N": {
+                "code": "N",
+                "name": "No smoking seat"
+            }
+        },
+        "specialServiceRequest": {
+            "OTHS": {
+                "name": "OTHER INFORMATION"
+            },
+            "RQST": {
+                "name": "Specific Seat Request"
+            },
+            "AVML": {
+                "name": "Asian Vegetarian Meal Request"
+            },
+            "DOCS": {
+                "name": "PASSENGER/CREW PRIMARY TRAVEL DOCUMENT INFO"
+            }
+        },
+        "bookingStatus": {
+            "HK": {
+                "name": "Holding confirmed"
+            },
+            "TK": {
+                "name": "Confirmed, timechange"
+            }
+        }
+    }
+}

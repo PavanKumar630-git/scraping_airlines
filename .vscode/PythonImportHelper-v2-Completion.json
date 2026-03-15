@@ -1,0 +1,2219 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "SpectacularAPIView",
+        "importPath": "drf_spectacular.views",
+        "description": "drf_spectacular.views",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.views",
+        "documentation": {}
+    },
+    {
+        "label": "SpectacularSwaggerView",
+        "importPath": "drf_spectacular.views",
+        "description": "drf_spectacular.views",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.views",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "importPath": "curl_cffi",
+        "description": "curl_cffi",
+        "isExtraImport": true,
+        "detail": "curl_cffi",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "importPath": "curl_cffi",
+        "description": "curl_cffi",
+        "isExtraImport": true,
+        "detail": "curl_cffi",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "importPath": "curl_cffi",
+        "description": "curl_cffi",
+        "isExtraImport": true,
+        "detail": "curl_cffi",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "importPath": "curl_cffi",
+        "description": "curl_cffi",
+        "isExtraImport": true,
+        "detail": "curl_cffi",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "importPath": "curl_cffi",
+        "description": "curl_cffi",
+        "isExtraImport": true,
+        "detail": "curl_cffi",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "generate_numeric_uuid",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "generate_numeric_uuid",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "AirIndiaService",
+        "importPath": "app.scraping.airindia_airlines.services.airindia_service",
+        "description": "app.scraping.airindia_airlines.services.airindia_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.airindia_airlines.services.airindia_service",
+        "documentation": {}
+    },
+    {
+        "label": "BookingIngestionService",
+        "importPath": "app.scraping.airindia_airlines.services.airindia_service",
+        "description": "app.scraping.airindia_airlines.services.airindia_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.airindia_airlines.services.airindia_service",
+        "documentation": {}
+    },
+    {
+        "label": "PDFService",
+        "importPath": "app.scraping.services.pdf_service",
+        "description": "app.scraping.services.pdf_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "PDFService",
+        "importPath": "app.scraping.services.pdf_service",
+        "description": "app.scraping.services.pdf_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "PDFService",
+        "importPath": "app.scraping.services.pdf_service",
+        "description": "app.scraping.services.pdf_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddedDocument",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "DateTimeField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "BooleanField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "IntField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "ListField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddedDocumentField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddedDocumentListField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "UUIDField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_auto_schema",
+        "importPath": "drf_yasg.utils",
+        "description": "drf_yasg.utils",
+        "isExtraImport": true,
+        "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_auto_schema",
+        "importPath": "drf_yasg.utils",
+        "description": "drf_yasg.utils",
+        "isExtraImport": true,
+        "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_auto_schema",
+        "importPath": "drf_yasg.utils",
+        "description": "drf_yasg.utils",
+        "isExtraImport": true,
+        "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.scraping.lufhansa_airlines.lufhansa_service",
+        "description": "app.scraping.lufhansa_airlines.lufhansa_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.lufhansa_airlines.lufhansa_service",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.scraping.srilanka_airlines.srilanka_service",
+        "description": "app.scraping.srilanka_airlines.srilanka_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.srilanka_airlines.srilanka_service",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.scraping.srilanka_airlines.services",
+        "description": "app.scraping.srilanka_airlines.services",
+        "isExtraImport": true,
+        "detail": "app.scraping.srilanka_airlines.services",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "airlines_main.asgi",
+        "description": "airlines_main.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "airlines_main.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nSECRET_KEY = \"testkey\"\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "SECRET_KEY = \"testkey\"\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"drf_spectacular\",",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"drf_spectacular\",\n    \"app.scraping.airindia_airlines\",",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"drf_spectacular\",\n    \"app.scraping.airindia_airlines\",\n    \"app.scraping.lufhansa_airlines\",",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"drf_spectacular\",\n    \"app.scraping.airindia_airlines\",\n    \"app.scraping.lufhansa_airlines\",\n    \"app.scraping.srilanka_airlines\",",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n]\nROOT_URLCONF = \"airlines_main.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "ROOT_URLCONF = \"airlines_main.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"airlines_main.wsgi.application\"\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [],\n    \"DEFAULT_PERMISSION_CLASSES\": [",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [],\n    \"DEFAULT_PERMISSION_CLASSES\": [\n        \"rest_framework.permissions.AllowAny\",",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [],\n    \"DEFAULT_PERMISSION_CLASSES\": [\n        \"rest_framework.permissions.AllowAny\",\n    ],\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\"\n}\nSTATIC_URL = \"static/\"",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "airlines_main.settings",
+        "description": "airlines_main.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"",
+        "detail": "airlines_main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "airlines_main.urls",
+        "description": "airlines_main.urls",
+        "peekOfCode": "def home(request):\n    return JsonResponse({\"message\": \"AirLines Scraper API Running\"})\nurlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\n        \"docs/\",\n        SpectacularSwaggerView.as_view(url_name=\"schema\"),\n        name=\"swagger-ui\",\n    ),",
+        "detail": "airlines_main.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "airlines_main.urls",
+        "description": "airlines_main.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\n        \"docs/\",\n        SpectacularSwaggerView.as_view(url_name=\"schema\"),\n        name=\"swagger-ui\",\n    ),\n    path(\"airindia/\", include(\"app.scraping.airindia_airlines.urls\")),\n    path(\"lufhansa/\", include(\"app.scraping.lufhansa_airlines.urls\")),",
+        "detail": "airlines_main.urls",
+        "documentation": {}
+    },
+    {
+        "label": "generate_numeric_uuid",
+        "kind": 2,
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "peekOfCode": "def generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)",
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "airlines_main.wsgi",
+        "description": "airlines_main.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "airlines_main.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AirIndiaService",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.services.airindia_service",
+        "description": "app.scraping.airindia_airlines.services.airindia_service",
+        "peekOfCode": "class AirIndiaService:\n    @staticmethod\n    def get_tokens_drission(pnr: str, last_name: str):\n        opts = ChromiumOptions()\n        opts.auto_port()\n        opts.headless(True)\n        opts.set_argument(\"--disable-blink-features=AutomationControlled\")\n        opts.set_argument(\"--no-sandbox\")\n        opts.set_argument(\"--disable-gpu\")\n        opts.set_argument(\"--disable-http2\")",
+        "detail": "app.scraping.airindia_airlines.services.airindia_service",
+        "documentation": {}
+    },
+    {
+        "label": "BookingIngestionService",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.services.airindia_service",
+        "description": "app.scraping.airindia_airlines.services.airindia_service",
+        "peekOfCode": "class BookingIngestionService:\n    def __init__(self, raw_data, ci_id):\n        self.raw = raw_data\n        self.data = raw_data.get(\"data\", raw_data)\n        self.ci_id = str(ci_id)\n        mongo = MongoService()\n        self.raw_col = mongo.get_collection(\"airlines_raw_data\")\n        self.header_col = mongo.get_collection(\"header_info\")\n        self.pax_col = mongo.get_collection(\"pax_info\")\n        self.flight_col = mongo.get_collection(\"flight_info\")",
+        "detail": "app.scraping.airindia_airlines.services.airindia_service",
+        "documentation": {}
+    },
+    {
+        "label": "AirIndiaController",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.controllers",
+        "description": "app.scraping.airindia_airlines.controllers",
+        "peekOfCode": "class AirIndiaController:\n    @staticmethod\n    def scrape():\n        url = \"https://people.sc.fsu.edu/~jburkardt/data/pdf/pdf.html\"\n        print(\"Entering scrape function :\", url)\n        response = requests.get(url)\n        soup = BeautifulSoup(response.text, \"lxml\")\n        # mongo = MongoService()\n        # collection = mongo.get_collection(\"company_a_docs\")\n        data = []",
+        "detail": "app.scraping.airindia_airlines.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "AirIndiaDocument",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class AirIndiaDocument(models.Model):\n    pdf_url = models.URLField()\n    file_path = models.CharField(max_length=500)\n    source = models.CharField(max_length=200)\n    created_at = models.DateTimeField(auto_now_add=True)\nclass UsersModel(models.Model):\n    websitename = models.CharField(max_length=100)\n    username = models.CharField(max_length=100)\n    password = models.CharField(max_length=100)\n# booking/models.py",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "UsersModel",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class UsersModel(models.Model):\n    websitename = models.CharField(max_length=100)\n    username = models.CharField(max_length=100)\n    password = models.CharField(max_length=100)\n# booking/models.py\n\"\"\"\nMongoEngine document models for flight booking data.\n4 collections: HeaderInfo, PaxInfo, FlightInfo, FareInfo\nAll linked by ci_id (UUID), pnr, and last_name.\n\"\"\"",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "PointOfSale",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class PointOfSale(EmbeddedDocument):\n    point_of_sale_id = StringField()\n    country_code     = StringField(max_length=5)\nclass LocationDateTime(EmbeddedDocument):\n    location_code = StringField(max_length=10)\n    date_time     = DateTimeField()\n    terminal      = StringField()\nclass MoneyAmount(EmbeddedDocument):\n    value         = IntField()\n    currency_code = StringField(max_length=5, default=\"INR\")",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "LocationDateTime",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class LocationDateTime(EmbeddedDocument):\n    location_code = StringField(max_length=10)\n    date_time     = DateTimeField()\n    terminal      = StringField()\nclass MoneyAmount(EmbeddedDocument):\n    value         = IntField()\n    currency_code = StringField(max_length=5, default=\"INR\")\nclass TaxItem(EmbeddedDocument):\n    code          = StringField(max_length=20)\n    description   = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "MoneyAmount",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class MoneyAmount(EmbeddedDocument):\n    value         = IntField()\n    currency_code = StringField(max_length=5, default=\"INR\")\nclass TaxItem(EmbeddedDocument):\n    code          = StringField(max_length=20)\n    description   = StringField()\n    value         = IntField()\n    currency_code = StringField(max_length=5, default=\"INR\")\nclass SurchargeItem(EmbeddedDocument):\n    code          = StringField(max_length=20)",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "TaxItem",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class TaxItem(EmbeddedDocument):\n    code          = StringField(max_length=20)\n    description   = StringField()\n    value         = IntField()\n    currency_code = StringField(max_length=5, default=\"INR\")\nclass SurchargeItem(EmbeddedDocument):\n    code          = StringField(max_length=20)\n    description   = StringField()\n    value         = IntField()\n    currency_code = StringField(max_length=5, default=\"INR\")",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "SurchargeItem",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class SurchargeItem(EmbeddedDocument):\n    code          = StringField(max_length=20)\n    description   = StringField()\n    value         = IntField()\n    currency_code = StringField(max_length=5, default=\"INR\")\n# ════════════════════════════════════════════════════════════\n# 1. HEADER INFO COLLECTION\n# ════════════════════════════════════════════════════════════\nclass ContactItem(EmbeddedDocument):\n    contact_id              = StringField()       # renamed from 'id' to avoid shadowing built-in",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactItem",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class ContactItem(EmbeddedDocument):\n    contact_id              = StringField()       # renamed from 'id' to avoid shadowing built-in\n    category                = StringField()\n    contact_type            = StringField()       # Phone | Email\n    device_type             = StringField()       # mobile | landline\n    purpose                 = StringField()       # standard | notification\n    number                  = StringField()\n    address                 = StringField()       # for email\n    country_phone_extension = StringField()\n    free_flow_text          = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemarkItem",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class RemarkItem(EmbeddedDocument):\n    remark_id   = StringField()                   # renamed from 'id'\n    remark_type = StringField()\n    freetext    = StringField()\n    flight_ids  = ListField(StringField())\nclass DisruptionWarning(EmbeddedDocument):\n    code  = StringField()\n    title = StringField()\nclass EligibilityReason(EmbeddedDocument):\n    code  = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "DisruptionWarning",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class DisruptionWarning(EmbeddedDocument):\n    code  = StringField()\n    title = StringField()\nclass EligibilityReason(EmbeddedDocument):\n    code  = StringField()\n    title = StringField()\nclass EligibilityStatus(EmbeddedDocument):\n    is_eligible             = BooleanField(default=False)\n    non_eligibility_reasons = EmbeddedDocumentListField(EligibilityReason)\nclass PaymentRecord(EmbeddedDocument):",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "EligibilityReason",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class EligibilityReason(EmbeddedDocument):\n    code  = StringField()\n    title = StringField()\nclass EligibilityStatus(EmbeddedDocument):\n    is_eligible             = BooleanField(default=False)\n    non_eligibility_reasons = EmbeddedDocumentListField(EligibilityReason)\nclass PaymentRecord(EmbeddedDocument):\n    method         = StringField()\n    payment_type   = StringField()\n    total_amount   = IntField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "EligibilityStatus",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class EligibilityStatus(EmbeddedDocument):\n    is_eligible             = BooleanField(default=False)\n    non_eligibility_reasons = EmbeddedDocumentListField(EligibilityReason)\nclass PaymentRecord(EmbeddedDocument):\n    method         = StringField()\n    payment_type   = StringField()\n    total_amount   = IntField()\n    currency_code  = StringField(default=\"INR\")\n    transaction_id = StringField()\nclass OrderEligibilities(EmbeddedDocument):",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentRecord",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class PaymentRecord(EmbeddedDocument):\n    method         = StringField()\n    payment_type   = StringField()\n    total_amount   = IntField()\n    currency_code  = StringField(default=\"INR\")\n    transaction_id = StringField()\nclass OrderEligibilities(EmbeddedDocument):\n    cancel_and_refund = EmbeddedDocumentField(EligibilityStatus)\n    change            = EmbeddedDocumentField(EligibilityStatus)\n    seat_change       = EmbeddedDocumentField(EligibilityStatus)",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderEligibilities",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class OrderEligibilities(EmbeddedDocument):\n    cancel_and_refund = EmbeddedDocumentField(EligibilityStatus)\n    change            = EmbeddedDocumentField(EligibilityStatus)\n    seat_change       = EmbeddedDocumentField(EligibilityStatus)\n    service_change    = EmbeddedDocumentField(EligibilityStatus)\n    name_modification = EmbeddedDocumentField(EligibilityStatus)\n    passenger_change  = EmbeddedDocumentField(EligibilityStatus)\nclass HeaderInfo(Document):\n    \"\"\"Top-level booking/order metadata.\"\"\"\n    # ── Cross-collection keys ─────────────────────────────",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "HeaderInfo",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class HeaderInfo(Document):\n    \"\"\"Top-level booking/order metadata.\"\"\"\n    # ── Cross-collection keys ─────────────────────────────\n    ci_id     = UUIDField(primary_key=False, default=uuid.uuid4, unique=False)\n    pnr       = StringField(required=True, max_length=20)\n    last_name = StringField(required=True, max_length=100)\n    # ── Order details ─────────────────────────────────────\n    order_id                    = StringField(required=True)\n    creation_date_time          = DateTimeField()\n    last_modification_date_time = DateTimeField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "PassengerName",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class PassengerName(EmbeddedDocument):\n    first_name   = StringField()\n    last_name    = StringField()\n    title        = StringField()\n    name_type    = StringField()\n    is_preferred = BooleanField(default=True)\nclass PassportDocument(EmbeddedDocument):\n    document_type         = StringField()\n    number                = StringField()\n    expiry_date           = DateTimeField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "PassportDocument",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class PassportDocument(EmbeddedDocument):\n    document_type         = StringField()\n    number                = StringField()\n    expiry_date           = DateTimeField()\n    issuance_country_code = StringField(max_length=5)\n    nationality_code      = StringField(max_length=5)\n    gender                = StringField()\n    birth_date            = DateTimeField()\n    first_name            = StringField()\n    last_name             = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "SeatCharacteristic",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class SeatCharacteristic(EmbeddedDocument):\n    code = StringField()\n    name = StringField()\nclass SeatAssignment(EmbeddedDocument):\n    seat_id         = StringField()              # renamed from 'id'\n    flight_id       = StringField()\n    seat_number     = StringField()\n    characteristics = EmbeddedDocumentListField(SeatCharacteristic)\n    is_chargeable   = BooleanField(default=False)\n    status_code     = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "SeatAssignment",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class SeatAssignment(EmbeddedDocument):\n    seat_id         = StringField()              # renamed from 'id'\n    flight_id       = StringField()\n    seat_number     = StringField()\n    characteristics = EmbeddedDocumentListField(SeatCharacteristic)\n    is_chargeable   = BooleanField(default=False)\n    status_code     = StringField()\nclass MealService(EmbeddedDocument):\n    meal_id       = StringField()                # renamed from 'id'\n    flight_id     = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "MealService",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class MealService(EmbeddedDocument):\n    meal_id       = StringField()                # renamed from 'id'\n    flight_id     = StringField()\n    meal_code     = StringField()                # AVML | VGML | HNML etc.\n    meal_name     = StringField()\n    quantity      = IntField(default=1)\n    is_chargeable = BooleanField(default=False)\n    status_code   = StringField()\nclass SpecialServiceRequest(EmbeddedDocument):\n    ssr_id       = StringField()                 # renamed from 'id'",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "SpecialServiceRequest",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class SpecialServiceRequest(EmbeddedDocument):\n    ssr_id       = StringField()                 # renamed from 'id'\n    code         = StringField()                 # AVML | CTCM | DOCS | RQST | OTHS\n    name         = StringField()\n    airline_code = StringField()\n    status_code  = StringField()\n    quantity     = IntField(default=1)\n    freetext     = StringField()\n    flight_ids   = ListField(StringField())\n    traveler_ids = ListField(StringField())",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "PaxInfo",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class PaxInfo(Document):\n    \"\"\"Passenger profile, passport, SSRs, and seat assignments.\"\"\"\n    # ── Cross-collection keys ─────────────────────────────\n    ci_id     = UUIDField(default=uuid.uuid4)\n    pnr       = StringField(required=True, max_length=20)\n    last_name = StringField(required=True, max_length=100)\n    # ── Traveler identity ─────────────────────────────────\n    traveler_id         = StringField()          # PT1, PT2 ...\n    passenger_type_code = StringField()          # ADT | CHD | INF\n    name     = EmbeddedDocumentField(PassengerName)",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "FlightStop",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class FlightStop(EmbeddedDocument):\n    location_code       = StringField()\n    airport_name        = StringField()\n    city                = StringField()\n    arrival_date_time   = DateTimeField()\n    departure_date_time = DateTimeField()\n    stop_duration       = IntField()             # seconds\n    is_change_of_gauge  = BooleanField(default=False)\nclass DisruptionLocationDetail(EmbeddedDocument):\n    location_code = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "DisruptionLocationDetail",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class DisruptionLocationDetail(EmbeddedDocument):\n    location_code = StringField()\n    same_airport  = BooleanField()\n    same_city     = BooleanField()\n    same_day      = BooleanField()\n    delta_time    = IntField(default=0)          # seconds\nclass DisruptionConnectionDetail(EmbeddedDocument):\n    status         = StringField()\n    same_via_point = BooleanField()\n    delta          = IntField(default=0)",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "DisruptionConnectionDetail",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class DisruptionConnectionDetail(EmbeddedDocument):\n    status         = StringField()\n    same_via_point = BooleanField()\n    delta          = IntField(default=0)\n    delta_time     = IntField(default=0)\nclass DisruptionStatus(EmbeddedDocument):\n    bound_status               = StringField()   # disrupted | ok\n    is_in_check_in_time_window = BooleanField(default=False)\n    departure                  = EmbeddedDocumentField(DisruptionLocationDetail)\n    arrival                    = EmbeddedDocumentField(DisruptionLocationDetail)",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "DisruptionStatus",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class DisruptionStatus(EmbeddedDocument):\n    bound_status               = StringField()   # disrupted | ok\n    is_in_check_in_time_window = BooleanField(default=False)\n    departure                  = EmbeddedDocumentField(DisruptionLocationDetail)\n    arrival                    = EmbeddedDocumentField(DisruptionLocationDetail)\n    connection                 = EmbeddedDocumentField(DisruptionConnectionDetail)\n    revised_duration           = IntField()      # seconds\n    original_flight_ids        = ListField(StringField())\nclass FlightSegment(EmbeddedDocument):\n    flight_id                   = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "FlightSegment",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class FlightSegment(EmbeddedDocument):\n    flight_id                   = StringField()\n    marketing_airline_code      = StringField()\n    airline_name                = StringField()\n    marketing_flight_number     = StringField()\n    operating_flight_number     = StringField()\n    cabin                       = StringField()  # business | economy | first\n    booking_class               = StringField()\n    status_code                 = StringField()  # HK | TK | WL ...\n    status_name                 = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaggageAllowance",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class BaggageAllowance(EmbeddedDocument):\n    flight_id   = StringField()\n    traveler_id = StringField()\n    type        = StringField()                  # piece | weight\n    quantity    = IntField()\n    weight_kg   = IntField()                     # populated when type == weight\nclass AirBound(EmbeddedDocument):\n    air_bound_id              = StringField()\n    fare_family_code          = StringField()\n    origin_location_code      = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "AirBound",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class AirBound(EmbeddedDocument):\n    air_bound_id              = StringField()\n    fare_family_code          = StringField()\n    origin_location_code      = StringField()\n    origin_airport_name       = StringField()\n    origin_city               = StringField()\n    destination_location_code = StringField()\n    destination_airport_name  = StringField()\n    destination_city          = StringField()\n    duration                  = IntField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "FlightInfo",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class FlightInfo(Document):\n    \"\"\"All flight bounds, segments, disruption info, and baggage.\"\"\"\n    # ── Cross-collection keys ─────────────────────────────\n    ci_id     = UUIDField(default=uuid.uuid4)\n    pnr       = StringField(required=True, max_length=20)\n    last_name = StringField(required=True, max_length=100)\n    bounds             = EmbeddedDocumentListField(AirBound)\n    baggage_allowances = EmbeddedDocumentListField(BaggageAllowance)\n    # ── Audit ─────────────────────────────────────────────\n    created_at = DateTimeField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "PricingDetails",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class PricingDetails(EmbeddedDocument):\n    base_fare_inr        = IntField()\n    total_taxes_inr      = IntField()\n    total_surcharges_inr = IntField()\n    grand_total_inr      = IntField()\n    currency_code        = StringField(default=\"INR\")\n    taxes                = EmbeddedDocumentListField(TaxItem)\n    surcharges           = EmbeddedDocumentListField(SurchargeItem)\n    payment_method       = StringField()\n    payment_type         = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "FareBreakdown",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class FareBreakdown(EmbeddedDocument):\n    fare_info_id     = StringField()\n    flight_id        = StringField()\n    fare_class       = StringField()\n    fare_family_code = StringField()\n    booking_class    = StringField()\n    coupon_status    = StringField()             # open | used | void | refunded\n    base_fare_nuc    = StringField()\n    price_qualifier  = StringField()\n    baggage_type     = StringField()",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "FareElement",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class FareElement(EmbeddedDocument):\n    element_id   = StringField()                 # renamed from 'id'\n    code         = StringField()\n    text         = StringField()\n    flight_ids   = ListField(StringField())\n    traveler_ids = ListField(StringField())\nclass FareInfo(Document):\n    \"\"\"Pricing, fare classes, taxes, surcharges, and coupon status.\"\"\"\n    # ── Cross-collection keys ─────────────────────────────\n    ci_id     = UUIDField(default=uuid.uuid4)",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "FareInfo",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.models",
+        "description": "app.scraping.airindia_airlines.models",
+        "peekOfCode": "class FareInfo(Document):\n    \"\"\"Pricing, fare classes, taxes, surcharges, and coupon status.\"\"\"\n    # ── Cross-collection keys ─────────────────────────────\n    ci_id     = UUIDField(default=uuid.uuid4)\n    pnr       = StringField(required=True, max_length=20)\n    last_name = StringField(required=True, max_length=100)\n    ticket_number  = StringField()\n    traveler_id    = StringField()\n    pricing         = EmbeddedDocumentField(PricingDetails)\n    fare_breakdowns = EmbeddedDocumentListField(FareBreakdown)",
+        "detail": "app.scraping.airindia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "AirIndiaSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class AirIndiaSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = AirIndiaDocument\n        fields = \"__all__\"\nclass AirIndiaTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()\n# booking/serializers.py\n\"\"\"\nDRF serializers — plain Serializer classes only.",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AirIndiaTokenDetails",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class AirIndiaTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()\n# booking/serializers.py\n\"\"\"\nDRF serializers — plain Serializer classes only.\nNo ModelSerializer: MongoEngine documents are not Django ORM models.\n\"\"\"\nfrom rest_framework import serializers\n# ── Request serializer (used by the view) ────────────────────",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AirIndiaTokenDetails",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class AirIndiaTokenDetails(serializers.Serializer):\n    pnr       = serializers.CharField()\n    last_name = serializers.CharField()\n# ════════════════════════════════════════════════════════════\n# SHARED\n# ════════════════════════════════════════════════════════════\nclass PointOfSaleSerializer(serializers.Serializer):\n    point_of_sale_id = serializers.CharField(allow_null=True)\n    country_code     = serializers.CharField(allow_null=True)\nclass TaxItemSerializer(serializers.Serializer):",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PointOfSaleSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class PointOfSaleSerializer(serializers.Serializer):\n    point_of_sale_id = serializers.CharField(allow_null=True)\n    country_code     = serializers.CharField(allow_null=True)\nclass TaxItemSerializer(serializers.Serializer):\n    code          = serializers.CharField()\n    description   = serializers.CharField(allow_null=True, required=False)\n    value         = serializers.IntegerField()\n    currency_code = serializers.CharField()\nclass SurchargeItemSerializer(serializers.Serializer):\n    code          = serializers.CharField()",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TaxItemSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class TaxItemSerializer(serializers.Serializer):\n    code          = serializers.CharField()\n    description   = serializers.CharField(allow_null=True, required=False)\n    value         = serializers.IntegerField()\n    currency_code = serializers.CharField()\nclass SurchargeItemSerializer(serializers.Serializer):\n    code          = serializers.CharField()\n    description   = serializers.CharField(allow_null=True, required=False)\n    value         = serializers.IntegerField()\n    currency_code = serializers.CharField()",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SurchargeItemSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class SurchargeItemSerializer(serializers.Serializer):\n    code          = serializers.CharField()\n    description   = serializers.CharField(allow_null=True, required=False)\n    value         = serializers.IntegerField()\n    currency_code = serializers.CharField()\n# ════════════════════════════════════════════════════════════\n# HEADER INFO\n# ════════════════════════════════════════════════════════════\nclass ContactItemSerializer(serializers.Serializer):\n    contact_id              = serializers.CharField(allow_null=True, required=False)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ContactItemSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class ContactItemSerializer(serializers.Serializer):\n    contact_id              = serializers.CharField(allow_null=True, required=False)\n    category                = serializers.CharField(allow_null=True, required=False)\n    contact_type            = serializers.CharField(allow_null=True, required=False)\n    device_type             = serializers.CharField(allow_null=True, required=False)\n    purpose                 = serializers.CharField(allow_null=True, required=False)\n    number                  = serializers.CharField(allow_null=True, required=False)\n    address                 = serializers.CharField(allow_null=True, required=False)\n    country_phone_extension = serializers.CharField(allow_null=True, required=False)\n    free_flow_text          = serializers.CharField(allow_null=True, required=False)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RemarkItemSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class RemarkItemSerializer(serializers.Serializer):\n    remark_id   = serializers.CharField(allow_null=True, required=False)\n    remark_type = serializers.CharField(allow_null=True, required=False)\n    freetext    = serializers.CharField(allow_null=True, required=False)\n    flight_ids  = serializers.ListField(child=serializers.CharField(), default=list)\nclass DisruptionWarningSerializer(serializers.Serializer):\n    code  = serializers.CharField(allow_null=True)\n    title = serializers.CharField(allow_null=True)\nclass PaymentRecordSerializer(serializers.Serializer):\n    method         = serializers.CharField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DisruptionWarningSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class DisruptionWarningSerializer(serializers.Serializer):\n    code  = serializers.CharField(allow_null=True)\n    title = serializers.CharField(allow_null=True)\nclass PaymentRecordSerializer(serializers.Serializer):\n    method         = serializers.CharField(allow_null=True)\n    payment_type   = serializers.CharField(allow_null=True)\n    total_amount   = serializers.IntegerField(allow_null=True)\n    currency_code  = serializers.CharField()\n    transaction_id = serializers.CharField(allow_null=True, required=False)\nclass EligibilityReasonSerializer(serializers.Serializer):",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentRecordSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class PaymentRecordSerializer(serializers.Serializer):\n    method         = serializers.CharField(allow_null=True)\n    payment_type   = serializers.CharField(allow_null=True)\n    total_amount   = serializers.IntegerField(allow_null=True)\n    currency_code  = serializers.CharField()\n    transaction_id = serializers.CharField(allow_null=True, required=False)\nclass EligibilityReasonSerializer(serializers.Serializer):\n    code  = serializers.CharField(allow_null=True)\n    title = serializers.CharField(allow_null=True)\nclass EligibilityStatusSerializer(serializers.Serializer):",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "EligibilityReasonSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class EligibilityReasonSerializer(serializers.Serializer):\n    code  = serializers.CharField(allow_null=True)\n    title = serializers.CharField(allow_null=True)\nclass EligibilityStatusSerializer(serializers.Serializer):\n    is_eligible             = serializers.BooleanField()\n    non_eligibility_reasons = EligibilityReasonSerializer(many=True, default=list)\nclass OrderEligibilitiesSerializer(serializers.Serializer):\n    cancel_and_refund = EligibilityStatusSerializer(allow_null=True, required=False)\n    change            = EligibilityStatusSerializer(allow_null=True, required=False)\n    seat_change       = EligibilityStatusSerializer(allow_null=True, required=False)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "EligibilityStatusSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class EligibilityStatusSerializer(serializers.Serializer):\n    is_eligible             = serializers.BooleanField()\n    non_eligibility_reasons = EligibilityReasonSerializer(many=True, default=list)\nclass OrderEligibilitiesSerializer(serializers.Serializer):\n    cancel_and_refund = EligibilityStatusSerializer(allow_null=True, required=False)\n    change            = EligibilityStatusSerializer(allow_null=True, required=False)\n    seat_change       = EligibilityStatusSerializer(allow_null=True, required=False)\n    service_change    = EligibilityStatusSerializer(allow_null=True, required=False)\n    name_modification = EligibilityStatusSerializer(allow_null=True, required=False)\n    passenger_change  = EligibilityStatusSerializer(allow_null=True, required=False)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderEligibilitiesSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class OrderEligibilitiesSerializer(serializers.Serializer):\n    cancel_and_refund = EligibilityStatusSerializer(allow_null=True, required=False)\n    change            = EligibilityStatusSerializer(allow_null=True, required=False)\n    seat_change       = EligibilityStatusSerializer(allow_null=True, required=False)\n    service_change    = EligibilityStatusSerializer(allow_null=True, required=False)\n    name_modification = EligibilityStatusSerializer(allow_null=True, required=False)\n    passenger_change  = EligibilityStatusSerializer(allow_null=True, required=False)\nclass HeaderInfoSerializer(serializers.Serializer):\n    id                          = serializers.CharField(read_only=True)\n    ci_id                       = serializers.UUIDField()",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "HeaderInfoSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class HeaderInfoSerializer(serializers.Serializer):\n    id                          = serializers.CharField(read_only=True)\n    ci_id                       = serializers.UUIDField()\n    pnr                         = serializers.CharField()\n    last_name                   = serializers.CharField()\n    order_id                    = serializers.CharField()\n    creation_date_time          = serializers.DateTimeField(allow_null=True)\n    last_modification_date_time = serializers.DateTimeField(allow_null=True)\n    is_group_booking            = serializers.BooleanField()\n    creation_pos                = PointOfSaleSerializer(allow_null=True, required=False)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PassengerNameSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class PassengerNameSerializer(serializers.Serializer):\n    first_name   = serializers.CharField(allow_null=True)\n    last_name    = serializers.CharField(allow_null=True)\n    title        = serializers.CharField(allow_null=True)\n    name_type    = serializers.CharField(allow_null=True)\n    is_preferred = serializers.BooleanField()\nclass PassportDocumentSerializer(serializers.Serializer):\n    document_type         = serializers.CharField(allow_null=True)\n    number                = serializers.CharField(allow_null=True)\n    expiry_date           = serializers.DateTimeField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PassportDocumentSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class PassportDocumentSerializer(serializers.Serializer):\n    document_type         = serializers.CharField(allow_null=True)\n    number                = serializers.CharField(allow_null=True)\n    expiry_date           = serializers.DateTimeField(allow_null=True)\n    issuance_country_code = serializers.CharField(allow_null=True)\n    nationality_code      = serializers.CharField(allow_null=True)\n    gender                = serializers.CharField(allow_null=True)\n    birth_date            = serializers.DateTimeField(allow_null=True)\n    first_name            = serializers.CharField(allow_null=True)\n    last_name             = serializers.CharField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SeatCharacteristicSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class SeatCharacteristicSerializer(serializers.Serializer):\n    code = serializers.CharField(allow_null=True)\n    name = serializers.CharField(allow_null=True)\nclass SeatAssignmentSerializer(serializers.Serializer):\n    seat_id         = serializers.CharField(allow_null=True)\n    flight_id       = serializers.CharField(allow_null=True)\n    seat_number     = serializers.CharField(allow_null=True)\n    characteristics = SeatCharacteristicSerializer(many=True, default=list)\n    is_chargeable   = serializers.BooleanField()\n    status_code     = serializers.CharField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SeatAssignmentSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class SeatAssignmentSerializer(serializers.Serializer):\n    seat_id         = serializers.CharField(allow_null=True)\n    flight_id       = serializers.CharField(allow_null=True)\n    seat_number     = serializers.CharField(allow_null=True)\n    characteristics = SeatCharacteristicSerializer(many=True, default=list)\n    is_chargeable   = serializers.BooleanField()\n    status_code     = serializers.CharField(allow_null=True)\nclass MealServiceSerializer(serializers.Serializer):\n    meal_id       = serializers.CharField(allow_null=True)\n    flight_id     = serializers.CharField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MealServiceSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class MealServiceSerializer(serializers.Serializer):\n    meal_id       = serializers.CharField(allow_null=True)\n    flight_id     = serializers.CharField(allow_null=True)\n    meal_code     = serializers.CharField(allow_null=True)\n    meal_name     = serializers.CharField(allow_null=True, required=False)\n    quantity      = serializers.IntegerField()\n    is_chargeable = serializers.BooleanField()\n    status_code   = serializers.CharField(allow_null=True)\nclass SpecialServiceRequestSerializer(serializers.Serializer):\n    ssr_id       = serializers.CharField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SpecialServiceRequestSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class SpecialServiceRequestSerializer(serializers.Serializer):\n    ssr_id       = serializers.CharField(allow_null=True)\n    code         = serializers.CharField(allow_null=True)\n    name         = serializers.CharField(allow_null=True, required=False)\n    airline_code = serializers.CharField(allow_null=True)\n    status_code  = serializers.CharField(allow_null=True)\n    quantity     = serializers.IntegerField()\n    freetext     = serializers.CharField(allow_null=True, required=False)\n    flight_ids   = serializers.ListField(child=serializers.CharField(), default=list)\n    traveler_ids = serializers.ListField(child=serializers.CharField(), default=list)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PaxInfoSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class PaxInfoSerializer(serializers.Serializer):\n    id                  = serializers.CharField(read_only=True)\n    ci_id               = serializers.UUIDField()\n    pnr                 = serializers.CharField()\n    last_name           = serializers.CharField()\n    traveler_id         = serializers.CharField(allow_null=True)\n    passenger_type_code = serializers.CharField(allow_null=True)\n    name                = PassengerNameSerializer(allow_null=True, required=False)\n    passport            = PassportDocumentSerializer(allow_null=True, required=False)\n    seats               = SeatAssignmentSerializer(many=True, default=list)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "LocationDateTimeSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class LocationDateTimeSerializer(serializers.Serializer):\n    location_code = serializers.CharField(allow_null=True)\n    date_time     = serializers.DateTimeField(allow_null=True)\n    terminal      = serializers.CharField(allow_null=True, required=False)\nclass FlightStopSerializer(serializers.Serializer):\n    location_code       = serializers.CharField(allow_null=True)\n    airport_name        = serializers.CharField(allow_null=True, required=False)\n    city                = serializers.CharField(allow_null=True, required=False)\n    arrival_date_time   = serializers.DateTimeField(allow_null=True)\n    departure_date_time = serializers.DateTimeField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FlightStopSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class FlightStopSerializer(serializers.Serializer):\n    location_code       = serializers.CharField(allow_null=True)\n    airport_name        = serializers.CharField(allow_null=True, required=False)\n    city                = serializers.CharField(allow_null=True, required=False)\n    arrival_date_time   = serializers.DateTimeField(allow_null=True)\n    departure_date_time = serializers.DateTimeField(allow_null=True)\n    stop_duration       = serializers.IntegerField(allow_null=True)\n    is_change_of_gauge  = serializers.BooleanField()\nclass DisruptionLocationDetailSerializer(serializers.Serializer):\n    location_code = serializers.CharField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DisruptionLocationDetailSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class DisruptionLocationDetailSerializer(serializers.Serializer):\n    location_code = serializers.CharField(allow_null=True)\n    same_airport  = serializers.BooleanField(allow_null=True)\n    same_city     = serializers.BooleanField(allow_null=True)\n    same_day      = serializers.BooleanField(allow_null=True)\n    delta_time    = serializers.IntegerField(allow_null=True)\nclass DisruptionConnectionDetailSerializer(serializers.Serializer):\n    status         = serializers.CharField(allow_null=True)\n    same_via_point = serializers.BooleanField(allow_null=True)\n    delta          = serializers.IntegerField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DisruptionConnectionDetailSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class DisruptionConnectionDetailSerializer(serializers.Serializer):\n    status         = serializers.CharField(allow_null=True)\n    same_via_point = serializers.BooleanField(allow_null=True)\n    delta          = serializers.IntegerField(allow_null=True)\n    delta_time     = serializers.IntegerField(allow_null=True)\nclass DisruptionStatusSerializer(serializers.Serializer):\n    bound_status               = serializers.CharField(allow_null=True)\n    is_in_check_in_time_window = serializers.BooleanField()\n    departure                  = DisruptionLocationDetailSerializer(allow_null=True, required=False)\n    arrival                    = DisruptionLocationDetailSerializer(allow_null=True, required=False)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DisruptionStatusSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class DisruptionStatusSerializer(serializers.Serializer):\n    bound_status               = serializers.CharField(allow_null=True)\n    is_in_check_in_time_window = serializers.BooleanField()\n    departure                  = DisruptionLocationDetailSerializer(allow_null=True, required=False)\n    arrival                    = DisruptionLocationDetailSerializer(allow_null=True, required=False)\n    connection                 = DisruptionConnectionDetailSerializer(allow_null=True, required=False)\n    revised_duration           = serializers.IntegerField(allow_null=True)\n    original_flight_ids        = serializers.ListField(child=serializers.CharField(), default=list)\nclass FlightSegmentSerializer(serializers.Serializer):\n    flight_id                   = serializers.CharField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FlightSegmentSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class FlightSegmentSerializer(serializers.Serializer):\n    flight_id                   = serializers.CharField(allow_null=True)\n    marketing_airline_code      = serializers.CharField(allow_null=True)\n    airline_name                = serializers.CharField(allow_null=True, required=False)\n    marketing_flight_number     = serializers.CharField(allow_null=True)\n    operating_flight_number     = serializers.CharField(allow_null=True, required=False)\n    cabin                       = serializers.CharField(allow_null=True)\n    booking_class               = serializers.CharField(allow_null=True)\n    status_code                 = serializers.CharField(allow_null=True)\n    status_name                 = serializers.CharField(allow_null=True, required=False)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AirBoundSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class AirBoundSerializer(serializers.Serializer):\n    air_bound_id              = serializers.CharField(allow_null=True)\n    fare_family_code          = serializers.CharField(allow_null=True)\n    origin_location_code      = serializers.CharField(allow_null=True)\n    origin_airport_name       = serializers.CharField(allow_null=True, required=False)\n    origin_city               = serializers.CharField(allow_null=True, required=False)\n    destination_location_code = serializers.CharField(allow_null=True)\n    destination_airport_name  = serializers.CharField(allow_null=True, required=False)\n    destination_city          = serializers.CharField(allow_null=True, required=False)\n    duration                  = serializers.IntegerField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "BaggageAllowanceSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class BaggageAllowanceSerializer(serializers.Serializer):\n    flight_id   = serializers.CharField(allow_null=True)\n    traveler_id = serializers.CharField(allow_null=True)\n    type        = serializers.CharField(allow_null=True)\n    quantity    = serializers.IntegerField(allow_null=True)\n    weight_kg   = serializers.IntegerField(allow_null=True, required=False)\nclass FlightInfoSerializer(serializers.Serializer):\n    id                 = serializers.CharField(read_only=True)\n    ci_id              = serializers.UUIDField()\n    pnr                = serializers.CharField()",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FlightInfoSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class FlightInfoSerializer(serializers.Serializer):\n    id                 = serializers.CharField(read_only=True)\n    ci_id              = serializers.UUIDField()\n    pnr                = serializers.CharField()\n    last_name          = serializers.CharField()\n    bounds             = AirBoundSerializer(many=True, default=list)\n    baggage_allowances = BaggageAllowanceSerializer(many=True, default=list)\n    created_at         = serializers.DateTimeField(read_only=True)\n    updated_at         = serializers.DateTimeField(read_only=True)\n# ════════════════════════════════════════════════════════════",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PricingDetailsSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class PricingDetailsSerializer(serializers.Serializer):\n    base_fare_inr        = serializers.IntegerField(allow_null=True)\n    total_taxes_inr      = serializers.IntegerField(allow_null=True)\n    total_surcharges_inr = serializers.IntegerField(allow_null=True)\n    grand_total_inr      = serializers.IntegerField(allow_null=True)\n    currency_code        = serializers.CharField()\n    taxes                = TaxItemSerializer(many=True, default=list)\n    surcharges           = SurchargeItemSerializer(many=True, default=list)\n    payment_method       = serializers.CharField(allow_null=True)\n    payment_type         = serializers.CharField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FareBreakdownSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class FareBreakdownSerializer(serializers.Serializer):\n    fare_info_id        = serializers.CharField(allow_null=True)\n    flight_id           = serializers.CharField(allow_null=True)\n    fare_class          = serializers.CharField(allow_null=True)\n    fare_family_code    = serializers.CharField(allow_null=True)\n    booking_class       = serializers.CharField(allow_null=True)\n    coupon_status       = serializers.CharField(allow_null=True)\n    base_fare_nuc       = serializers.CharField(allow_null=True)\n    price_qualifier     = serializers.CharField(allow_null=True)\n    baggage_type        = serializers.CharField(allow_null=True)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FareElementSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class FareElementSerializer(serializers.Serializer):\n    element_id   = serializers.CharField(allow_null=True)\n    code         = serializers.CharField(allow_null=True)\n    text         = serializers.CharField(allow_null=True)\n    flight_ids   = serializers.ListField(child=serializers.CharField(), default=list)\n    traveler_ids = serializers.ListField(child=serializers.CharField(), default=list)\nclass FareInfoSerializer(serializers.Serializer):\n    id              = serializers.CharField(read_only=True)\n    ci_id           = serializers.UUIDField()\n    pnr             = serializers.CharField()",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FareInfoSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class FareInfoSerializer(serializers.Serializer):\n    id              = serializers.CharField(read_only=True)\n    ci_id           = serializers.UUIDField()\n    pnr             = serializers.CharField()\n    last_name       = serializers.CharField()\n    ticket_number   = serializers.CharField(allow_null=True)\n    traveler_id     = serializers.CharField(allow_null=True)\n    pricing         = PricingDetailsSerializer(allow_null=True, required=False)\n    fare_breakdowns = FareBreakdownSerializer(many=True, default=list)\n    fare_elements   = FareElementSerializer(many=True, default=list)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "BookingResponseSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.serializers",
+        "description": "app.scraping.airindia_airlines.serializers",
+        "peekOfCode": "class BookingResponseSerializer(serializers.Serializer):\n    ci_id     = serializers.UUIDField()\n    pnr       = serializers.CharField()\n    last_name = serializers.CharField()\n    header    = HeaderInfoSerializer(required=False)\n    pax       = PaxInfoSerializer(required=False)\n    flight    = FlightInfoSerializer(required=False)\n    fare      = FareInfoSerializer(required=False)",
+        "detail": "app.scraping.airindia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.scraping.airindia_airlines.urls",
+        "description": "app.scraping.airindia_airlines.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"\", AirIndiaViewer, basename=\"magma\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.airindia_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.scraping.airindia_airlines.urls",
+        "description": "app.scraping.airindia_airlines.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.airindia_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "AirIndiaViewer",
+        "kind": 6,
+        "importPath": "app.scraping.airindia_airlines.views",
+        "description": "app.scraping.airindia_airlines.views",
+        "peekOfCode": "class AirIndiaViewer(viewsets.ViewSet):\n    # @extend_schema(summary=\"AirIndia documents\")\n    # @action(detail=False, methods=[\"get\"], url_path=\"scrape\")\n    # def scrape(self, request):\n    #     data = AirIndiaController.scrape()\n    #     return Response(data)\n    # @extend_schema(summary=\"AirIndia\",\n    #     request=AirIndiaTokenDetails)\n    # @action(detail=False, methods=[\"post\"], url_path=\"login\")\n    # def login(self, request):",
+        "detail": "app.scraping.airindia_airlines.views",
+        "documentation": {}
+    },
+    {
+        "label": "LufhansaController",
+        "kind": 6,
+        "importPath": "app.scraping.lufhansa_airlines.controllers",
+        "description": "app.scraping.lufhansa_airlines.controllers",
+        "peekOfCode": "class LufhansaController:\n    @staticmethod\n    def get_booking_details(payload):\n        pnr = payload.get(\"pnr\")\n        last_name = payload.get(\"last_name\")\n        if not pnr or not last_name:\n            return {\n                \"status\": \"error\",\n                \"message\": \"pnr and last_name required\"\n            }",
+        "detail": "app.scraping.lufhansa_airlines.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "LufhansaDocument",
+        "kind": 6,
+        "importPath": "app.scraping.lufhansa_airlines.models",
+        "description": "app.scraping.lufhansa_airlines.models",
+        "peekOfCode": "class LufhansaDocument(models.Model):\n    pdf_url = models.URLField()\n    file_path = models.CharField(max_length=500)\n    source = models.CharField(max_length=200)\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "app.scraping.lufhansa_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "LufhansaSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.lufhansa_airlines.serializers",
+        "description": "app.scraping.lufhansa_airlines.serializers",
+        "peekOfCode": "class LufhansaSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = LufhansaDocument\n        fields = \"__all__\"\nclass LufhansaTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.lufhansa_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "LufhansaTokenDetails",
+        "kind": 6,
+        "importPath": "app.scraping.lufhansa_airlines.serializers",
+        "description": "app.scraping.lufhansa_airlines.serializers",
+        "peekOfCode": "class LufhansaTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.lufhansa_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "LufthansaService",
+        "kind": 6,
+        "importPath": "app.scraping.lufhansa_airlines.services",
+        "description": "app.scraping.lufhansa_airlines.services",
+        "peekOfCode": "class LufthansaService:\n    TOKEN_URL = \"https://api-shop.lufthansa.com/v1/oauth2/token\"\n    BASE_URL = \"https://api-shop.lufthansa.com/v1/one-booking/purchase/orders\"\n    CLIENT_ID = \"k7zpj4s6k2qbrr4xhrzqa7yn\"\n    CLIENT_SECRET = \"rVXq#05\"\n    # ======================================================\n    # GENERATE COOKIES USING DRISSION BROWSER\n    # ======================================================\n    @staticmethod\n    def generate_cookies():",
+        "detail": "app.scraping.lufhansa_airlines.services",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.scraping.lufhansa_airlines.urls",
+        "description": "app.scraping.lufhansa_airlines.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"\", LufhansaViewer, basename=\"lufhansa\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.lufhansa_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.scraping.lufhansa_airlines.urls",
+        "description": "app.scraping.lufhansa_airlines.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.lufhansa_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "LufhansaViewer",
+        "kind": 6,
+        "importPath": "app.scraping.lufhansa_airlines.views",
+        "description": "app.scraping.lufhansa_airlines.views",
+        "peekOfCode": "class LufhansaViewer(viewsets.ViewSet):\n    @extend_schema(summary=\"Lufhansa\",\n        request=LufhansaTokenDetails)\n    @action(detail=False, methods=[\"post\"], url_path=\"get-details\")\n    def login(self, request):\n        serializer = LufhansaTokenDetails(data=request.data)\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=400)\n        data = LufhansaController.get_booking_details(serializer.validated_data)\n        return Response(data)",
+        "detail": "app.scraping.lufhansa_airlines.views",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "kind": 6,
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "peekOfCode": "class MongoService:\n    def __init__(self):\n        MONGO_URI = \"mongodb+srv://scraping:scraping@scraping.w3hsqwj.mongodb.net/\"\n        DB_NAME = \"airlines_db\"\n        self.client = MongoClient(MONGO_URI)\n        self.db = self.client[DB_NAME]\n    def get_collection(self, name):\n        return self.db[name]\n    def insert_one(self, collection_name, data):\n        collection = self.get_collection(collection_name)",
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "PDFService",
+        "kind": 6,
+        "importPath": "app.scraping.services.pdf_service",
+        "description": "app.scraping.services.pdf_service",
+        "peekOfCode": "class PDFService:\n    DOWNLOAD_DIR = \"downloads\"\n    @staticmethod\n    def download_pdf(url, company):\n        start_time = time.time()\n        company_path = os.path.join(PDFService.DOWNLOAD_DIR, company)\n        os.makedirs(company_path, exist_ok=True)\n        uuidAdd = uuid.uuid4().hex[:6]\n        filename = f\"{uuidAdd}_{url.split('/')[-1]}\"\n        relative_path = os.path.join(company_path, filename)",
+        "detail": "app.scraping.services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "SrilankaController",
+        "kind": 6,
+        "importPath": "app.scraping.srilanka_airlines.controllers",
+        "description": "app.scraping.srilanka_airlines.controllers",
+        "peekOfCode": "class SrilankaController:\n    @staticmethod\n    def get_booking_details(payload):\n        pnr = payload.get(\"pnr\")\n        last_name = payload.get(\"last_name\")\n        if not pnr or not last_name:\n            return {\n                \"status\": \"error\",\n                \"message\": \"pnr and last_name required\"\n            }",
+        "detail": "app.scraping.srilanka_airlines.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "LufhansaDocument",
+        "kind": 6,
+        "importPath": "app.scraping.srilanka_airlines.models",
+        "description": "app.scraping.srilanka_airlines.models",
+        "peekOfCode": "class LufhansaDocument(models.Model):\n    pdf_url = models.URLField()\n    file_path = models.CharField(max_length=500)\n    source = models.CharField(max_length=200)\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "app.scraping.srilanka_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "SrilankaSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.srilanka_airlines.serializers",
+        "description": "app.scraping.srilanka_airlines.serializers",
+        "peekOfCode": "class SrilankaSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = LufhansaDocument\n        fields = \"__all__\"\nclass SrilankaTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.srilanka_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SrilankaTokenDetails",
+        "kind": 6,
+        "importPath": "app.scraping.srilanka_airlines.serializers",
+        "description": "app.scraping.srilanka_airlines.serializers",
+        "peekOfCode": "class SrilankaTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.srilanka_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SriLankanBooking",
+        "kind": 6,
+        "importPath": "app.scraping.srilanka_airlines.services",
+        "description": "app.scraping.srilanka_airlines.services",
+        "peekOfCode": "class SriLankanBooking:\n    def __init__(self, pnr, last_name):\n        self.pnr = pnr\n        self.last_name = last_name\n        self.page = None\n    def init_browser(self):\n        opts = ChromiumOptions()\n        opts.auto_port()\n        opts.headless(False)\n        opts.set_argument('--window-size=1920,1080')",
+        "detail": "app.scraping.srilanka_airlines.services",
+        "documentation": {}
+    },
+    {
+        "label": "SriLankanIngestionService",
+        "kind": 6,
+        "importPath": "app.scraping.srilanka_airlines.srilanka_service",
+        "description": "app.scraping.srilanka_airlines.srilanka_service",
+        "peekOfCode": "class SriLankanIngestionService:\n    def __init__(self, raw_data: dict, ci_id):\n        self.raw = raw_data\n        self.data = raw_data.get(\"data\", raw_data)\n        self.ci_id = str(ci_id)\n        mongo = MongoService()\n        self.raw_col    = mongo.get_collection(\"airlines_raw_data\")\n        self.header_col = mongo.get_collection(\"header_info\")\n        self.pax_col    = mongo.get_collection(\"pax_info\")\n        self.flight_col = mongo.get_collection(\"flight_info\")",
+        "detail": "app.scraping.srilanka_airlines.srilanka_service",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.scraping.srilanka_airlines.urls",
+        "description": "app.scraping.srilanka_airlines.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"\", SriLankaViewer, basename=\"srilanka\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.srilanka_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.scraping.srilanka_airlines.urls",
+        "description": "app.scraping.srilanka_airlines.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.srilanka_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "SriLankaViewer",
+        "kind": 6,
+        "importPath": "app.scraping.srilanka_airlines.views",
+        "description": "app.scraping.srilanka_airlines.views",
+        "peekOfCode": "class SriLankaViewer(viewsets.ViewSet):\n    @extend_schema(summary=\"SriLanka Airlines\",\n        request=SrilankaTokenDetails)\n    @action(detail=False, methods=[\"post\"], url_path=\"get-details\")\n    def login(self, request):\n        serializer = SrilankaTokenDetails(data=request.data)\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=400)\n        data = SrilankaController.get_booking_details(serializer.validated_data)\n        return Response(data)",
+        "detail": "app.scraping.srilanka_airlines.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_free_proxies",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_proxy",
+        "description": "scripts.airindia.air_india_proxy",
+        "peekOfCode": "def get_free_proxies():\n    \"\"\"Fetch free proxies from public sources\"\"\"\n    proxies = []\n    try:\n        # Free proxy list API\n        url = \"https://proxylist.geonode.com/api/proxy-list?limit=20&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https&country=US\"\n        req = urllib.request.Request(url, headers={\"User-Agent\": \"Mozilla/5.0\"})\n        with urllib.request.urlopen(req, timeout=10) as resp:\n            data = json.loads(resp.read())\n            for proxy in data.get(\"data\", []):",
+        "detail": "scripts.airindia.air_india_proxy",
+        "documentation": {}
+    },
+    {
+        "label": "get_incap_tokens",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_proxy",
+        "description": "scripts.airindia.air_india_proxy",
+        "peekOfCode": "def get_incap_tokens(pnr: str, last_name: str, proxy: str = None):\n    with sync_playwright() as p:\n        launch_args = [\n            \"--disable-blink-features=AutomationControlled\",\n            \"--disable-http2\",\n            \"--no-sandbox\",\n            \"--disable-dev-shm-usage\",\n            \"--disable-gpu\",\n            \"--window-size=1920,1080\",\n        ]",
+        "detail": "scripts.airindia.air_india_proxy",
+        "documentation": {}
+    },
+    {
+        "label": "get_incap_tokens_with_retry",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_proxy",
+        "description": "scripts.airindia.air_india_proxy",
+        "peekOfCode": "def get_incap_tokens_with_retry(pnr: str, last_name: str):\n    \"\"\"Try without proxy first, then rotate through proxies\"\"\"\n    # Try without proxy first\n    print(\"Trying without proxy...\")\n    try:\n        return get_incap_tokens(pnr, last_name, proxy=None)\n    except Exception as e:\n        print(f\"No proxy failed: {e}\")\n    # Try with free proxies\n    proxies = get_free_proxies()",
+        "detail": "scripts.airindia.air_india_proxy",
+        "documentation": {}
+    },
+    {
+        "label": "construct_headers_and_cookies",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_proxy",
+        "description": "scripts.airindia.air_india_proxy",
+        "peekOfCode": "def construct_headers_and_cookies(tokens: dict) -> tuple:\n    reese84_data = json.loads(tokens[\"reese84\"])\n    x_d_token = reese84_data[\"token\"]\n    incap_data = json.loads(tokens[\"x-incap-spa-info\"])\n    travel_cookies = incap_data.get(\"https://travel.airindia.com\", [])\n    incap_cookie_str = \"; \".join(f\"{c['name']}={c['value']}\" for c in travel_cookies)\n    base_headers = {\n        'accept': 'application/json',\n        'accept-language': 'en-US,en;q=0.9',\n        'origin': 'https://travel.airindia.com',",
+        "detail": "scripts.airindia.air_india_proxy",
+        "documentation": {}
+    },
+    {
+        "label": "get_bearer_token",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_proxy",
+        "description": "scripts.airindia.air_india_proxy",
+        "peekOfCode": "def get_bearer_token(session, base_headers, cookies):\n    print(\"Getting Bearer token...\")\n    token_headers = {**base_headers, 'content-type': 'application/x-www-form-urlencoded'}\n    data = {\n        'client_id': 'DCkj8EM4xxOUnINtcYcUhGXVfP2KKUzf',\n        'client_secret': 'QWgBtA2ARMfdAf1g',\n        'grant_type': 'client_credentials',\n        'guest_office_id': 'DELAI08AA',\n    }\n    response = session.post(",
+        "detail": "scripts.airindia.air_india_proxy",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_booking",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_proxy",
+        "description": "scripts.airindia.air_india_proxy",
+        "peekOfCode": "def fetch_booking(pnr: str, last_name: str):\n    tokens = get_incap_tokens_with_retry(pnr, last_name)\n    base_headers, cookies = construct_headers_and_cookies(tokens)\n    session = requests.Session()\n    bearer_token = get_bearer_token(session, base_headers, cookies)\n    booking_headers = {\n        **base_headers,\n        'authorization': f'Bearer {bearer_token}',\n        'content-type': 'application/json',\n    }",
+        "detail": "scripts.airindia.air_india_proxy",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "scripts.airindia.air_india_proxy",
+        "description": "scripts.airindia.air_india_proxy",
+        "peekOfCode": "result = fetch_booking('98RZ64', 'PUROHIT')\nprint(json.dumps(result, indent=2))",
+        "detail": "scripts.airindia.air_india_proxy",
+        "documentation": {}
+    },
+    {
+        "label": "get_incap_tokens",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_selenium",
+        "description": "scripts.airindia.air_india_selenium",
+        "peekOfCode": "def get_incap_tokens(pnr: str, last_name: str):\n    with sync_playwright() as p:\n        browser = p.chromium.launch(\n            headless=False,\n            channel=\"chrome\",\n            args=[\n                \"--disable-blink-features=AutomationControlled\",\n                \"--disable-http2\",\n                \"--no-sandbox\",\n                \"--disable-dev-shm-usage\",",
+        "detail": "scripts.airindia.air_india_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "construct_headers_and_cookies",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_selenium",
+        "description": "scripts.airindia.air_india_selenium",
+        "peekOfCode": "def construct_headers_and_cookies(tokens: dict) -> tuple:\n    reese84_data = json.loads(tokens[\"reese84\"])\n    x_d_token = reese84_data[\"token\"]\n    incap_data = json.loads(tokens[\"x-incap-spa-info\"])\n    travel_cookies = incap_data.get(\"https://travel.airindia.com\", [])\n    incap_cookie_str = \"; \".join(f\"{c['name']}={c['value']}\" for c in travel_cookies)\n    base_headers = {\n        'accept': 'application/json',\n        'accept-language': 'en-US,en;q=0.9',\n        'origin': 'https://travel.airindia.com',",
+        "detail": "scripts.airindia.air_india_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "get_bearer_token",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_selenium",
+        "description": "scripts.airindia.air_india_selenium",
+        "peekOfCode": "def get_bearer_token(session: requests.Session, base_headers: dict, cookies: dict) -> str:\n    print(\"Getting Bearer token...\")\n    token_headers = {**base_headers, 'content-type': 'application/x-www-form-urlencoded'}\n    data = {\n        'client_id': 'DCkj8EM4xxOUnINtcYcUhGXVfP2KKUzf',\n        'client_secret': 'QWgBtA2ARMfdAf1g',\n        'grant_type': 'client_credentials',\n        'guest_office_id': 'DELAI08AA',\n    }\n    response = session.post(",
+        "detail": "scripts.airindia.air_india_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_booking",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_selenium",
+        "description": "scripts.airindia.air_india_selenium",
+        "peekOfCode": "def fetch_booking(pnr: str, last_name: str):\n    tokens = get_incap_tokens(pnr, last_name)\n    base_headers, cookies = construct_headers_and_cookies(tokens)\n    session = requests.Session()\n    bearer_token = get_bearer_token(session, base_headers, cookies)\n    booking_headers = {\n        **base_headers,\n        'authorization': f'Bearer {bearer_token}',\n        'content-type': 'application/json',\n    }",
+        "detail": "scripts.airindia.air_india_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "scripts.airindia.air_india_selenium",
+        "description": "scripts.airindia.air_india_selenium",
+        "peekOfCode": "result = fetch_booking('98RZ64', 'PUROHIT')\nprint(json.dumps(result, indent=2))",
+        "detail": "scripts.airindia.air_india_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "get_tokens_drission",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_test",
+        "description": "scripts.airindia.air_india_test",
+        "peekOfCode": "def get_tokens_drission(pnr: str, last_name: str):\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(True)\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")\n    opts.set_argument(\"--no-sandbox\")\n    opts.set_argument(\"--disable-gpu\")\n    opts.set_argument(\"--disable-http2\")\n    opts.set_argument(\"--window-size=1920,1080\")\n    opts.set_argument(\"--start-maximized\")",
+        "detail": "scripts.airindia.air_india_test",
+        "documentation": {}
+    },
+    {
+        "label": "construct_headers_and_cookies",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_test",
+        "description": "scripts.airindia.air_india_test",
+        "peekOfCode": "def construct_headers_and_cookies(tokens: dict) -> tuple:\n    reese84_data = json.loads(tokens[\"reese84\"])\n    x_d_token = reese84_data[\"token\"]\n    incap_data = json.loads(tokens[\"x-incap-spa-info\"])\n    travel_cookies = incap_data.get(\"https://travel.airindia.com\", [])\n    incap_cookie_str = \"; \".join(f\"{c['name']}={c['value']}\" for c in travel_cookies)\n    base_headers = {\n        'accept': 'application/json',\n        'accept-language': 'en-US,en;q=0.9',\n        'origin': 'https://travel.airindia.com',",
+        "detail": "scripts.airindia.air_india_test",
+        "documentation": {}
+    },
+    {
+        "label": "get_bearer_token",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_test",
+        "description": "scripts.airindia.air_india_test",
+        "peekOfCode": "def get_bearer_token(session, base_headers, cookies):\n    print(\"Getting Bearer token...\")\n    token_headers = {**base_headers, 'content-type': 'application/x-www-form-urlencoded'}\n    data = {\n        'client_id': 'DCkj8EM4xxOUnINtcYcUhGXVfP2KKUzf',\n        'client_secret': 'QWgBtA2ARMfdAf1g',\n        'grant_type': 'client_credentials',\n        'guest_office_id': 'DELAI08AA',\n    }\n    response = session.post(",
+        "detail": "scripts.airindia.air_india_test",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_booking",
+        "kind": 2,
+        "importPath": "scripts.airindia.air_india_test",
+        "description": "scripts.airindia.air_india_test",
+        "peekOfCode": "def fetch_booking(pnr: str, last_name: str):\n    tokens = get_tokens_drission(pnr, last_name)\n    base_headers, cookies = construct_headers_and_cookies(tokens)\n    session = requests.Session()\n    bearer_token = get_bearer_token(session, base_headers, cookies)\n    booking_headers = {\n        **base_headers,\n        'authorization': f'Bearer {bearer_token}',\n        'content-type': 'application/json',\n    }",
+        "detail": "scripts.airindia.air_india_test",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "scripts.airindia.air_india_test",
+        "description": "scripts.airindia.air_india_test",
+        "peekOfCode": "result = fetch_booking('98RZ64', 'PUROHIT')\nprint(json.dumps(result, indent=2))",
+        "detail": "scripts.airindia.air_india_test",
+        "documentation": {}
+    },
+    {
+        "label": "cookies",
+        "kind": 5,
+        "importPath": "scripts.lufhansa.lufhansa",
+        "description": "scripts.lufhansa.lufhansa",
+        "peekOfCode": "cookies = {\n    'cmv3': 'true',\n    'storekayakclickid': 'undefined',\n    'CONSENTMGR': 'c1:1%7Cc2:1%7Cc3:1%7Cc4:1%7Cts:1773162523139%7Cconsent:true',\n    'mt.v': '2.308964706.1773162523552',\n    '_gcl_au': '1.1.903487803.1773162524',\n    '_ga': 'GA1.2.1697794546.1773162524',\n    '_fbp': 'fb.1.1773162524276.782692572833487892',\n    '_uetsid': 'cb65d5a01ca311f1a5ba0fe8e06662cf',\n    '_uetvid': 'cb6613901ca311f1842a1fbdae62caad',",
+        "detail": "scripts.lufhansa.lufhansa",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "scripts.lufhansa.lufhansa",
+        "description": "scripts.lufhansa.lufhansa",
+        "peekOfCode": "headers = {\n    'accept': 'application/json',\n    'accept-language': 'en-US,en;q=0.9',\n    'akamai-bm-telemetry': 'a=7C549EDB737073FDA7F0FF5D7585C72F&&&e=7DD4F18EEFCE9C2124716FB7B6398858~YAAQBiozavX9+rScAQAAw2O52B9Ybqr7MzbLkNky0Iv+qomSlqXhbJVXIqHy9bRkxdvDcxzp0kRYkQiaVdla8boVR3dR/Obntf5GRhfqN20JcJv40lK2i2neqUx7bu4Z8bcHj5wb+FA/nNG5ELAJIwt2brQrywLKLDjnHjZirtK8nHCVixJOLhKujodvfHuWrh2dG6+5/W8h3fmuo+S0Cn2E0YxQVET/SqrjnV2RepFlsrAo4AV4KeKdyW+dRYRRzMVcDr4ufbnXSHYf4nDw/Amw59JH5/C8SohcjfwOq+3m7+2zMhnxD+hkoQgp2JqSUXMP6AkQ54CJyi0LjFeC1qwSN2NurnR+Y54j6PiDMq04MCER1T90YVooOEuSJqQbFlm1zO/648r7pP7AaoYfrw==~3290947~3228997&&&sensor_data=MzsxOzI7MDszMjkwOTQ3O3dOWDdQN1ZXek5oQ3U2SnVuQVg1UWMveGlRelN2bHVvN3NURUQ5U1V3a0U9OzgsMzQsMCwwLDEsMDt1aj8sXXtJZiJZNnQiNSJWLVEsP3osSiIyeEQiV2pCIiAidCw6JUFHfSZjPUVEclRqI2h8anxhaGR4e3I5SzheWC47bmslei1ZSVRmO3psIls3bSJhK0QiMiIiUiJwU0ciSCIiZSJbQ1YieXxXIiAzfCJyMngmayJxRTEiPiIifm9lIkEpLiJpIjgjbSAiYiJNLnoiZiIiZiJbRXEiN2heTDs+NyJfUzEiMyNnbXYwIiJzInx2RSJhIkNHLWtRImRlYyJURUYiQlFyemIiKF4iYSIiaSJ1U3AiZ1dqRiMiT1VvWyJBIiJeX2MiRioiQmdXRzEiXjYsIkciKjBgLjIwRFklci9xKEQkK3xNOj9OPWAzLFs0Plt0TVR1MUAkfCU+WCM+byUiYCI9UmEifmdAfkkiISh1IlsiPWg1NSEtfS5fbHJEVjciSSIgLG4iVTg9Kj0xIiFxPCMrQS8iMCA3M3skXUkiW10/ImgiIn0iPVdTIj4iIiQ7NGciIj8iNDtRInQ4RExZV2lLVnFXIi56Nz4idCprJUoiUGdLMyJuQUgkQnh6VUoiODJMWnEibCpbIiAgSDYiTz9mfnpMcm8iTHhPInEiPSIwME4iUjs5Ii82WVBvalEiRC1TODxYWVIpUi9gICpOdmFkOlljdzNgM0Z9MGFHOzY1JU9YOFErYXtbRWIlW3gsNi9EMzRIYm4+TS5LVG9QQ1B3RDJ2KkIqUlhYYCpvOnxqPjF2cG96XzVUMEB4fk4+SWx9NzVpOG5rYTkzW0RrIiw8aiJGM2giISI0b0J4ZSJOMmAiZ09qS1QiLSRaeVN0JWg9KTM9S3pAIklmTiJjImlIIjlOcSIwVlFHIlE0VjRDIjFoMTMiVCZLI0krJkpXalZHPVs1IkZ8IkoiKHNROVVhVERZcEheUCEiMSVAIi4/KyJldEArbCJiNUEiWyJUbCI/IitQIyJrRX1vQSJIaEoiM1B4VDZ7eH4iZF5rIll2InwgQSIsUEQiVyIiVCItVCJxIiJFInNxKSJXIip6bChXe3M4PnJ4IiJOInBNPSJJIkprQ0VMaGRINFlaRiwtQkkjMGFyL0VIOyVUP35tL3RTUTJLe2JzdjE7WjtNRzI2OEJXJk1pRFUiPyJxa0wiJiojaC4iICggIiwiTmsiVjxnIm9Ha3UiNyIieyJdUzIiPEQqUWJSIl8rWG0ibV1eLHYqIms7QywiYXJsWUQ9TCYmUiUiZlk0OyJBdXA/OCJqaiJeNGVoVyJmJHsiVyIzIiNPLyJoIzMiU2g+ViAjQyZ2JUwmImJlI3oicDIgL25mdzo6dj8+aihkeltrIjRNQiIoRTIibVMtIiUuN0dIIns2IiRmM0JqNHI8fkd0MD9FeVdsIkBUaCJoLStYUiJUOCJhWVR6Lk59XyJwNGcib2BRMFAiL0VUImElPEtYazh2ImYxME4iWSIiLCA5In5fTCJbIltfdyphQ0l5QFYgL3xCeC8iISJeMjgiflMvPVhqd2UvOSVdZzheQVFYRSN9PE4+VU4jSC8xaz49ZlsjfGUlZjc+U3RPczUhT3g/cWpJWUFhYG9pW113UDReUHtfVHUvTGRhMV4+MyhqIkQiYmRdIiA1b348ICJsajpJIlQiWFFEIjJgKVVENHMiKVFkISJHbnUiLyFxIjYybCJ9ZykiZFV3JGIleEUib2BvXSJXIiJWIVkiM31+IlEiWFA0XiQiLFJlIl9iVSJAImQiUCRpIntAKCJLOEN4KCxTIiZMdXRqOlM6fnJZVDcibSJdICYiICJoV1JZOj9FKTpPIiItInZNbCJoIiJBInVePiJeYlItVCIjNmciOkY3TzwiUyU4Ij5lTzxBMzxtKWEiaj88Il0lLCMtKVFTInR3Ik8iWGBxUSJpIkI8XSJ1VkYiPU1rIk5ALyJEXSJvIDAxKnBKImwtcCIkYXQibCFrInhOVnZJIiMoVWsidUFabWZwRiIsXT4iRDpFIkdFViI=&&&j=AAQAAAAF/////5MAP6NKhfiZ1Y4vVPxhvPwVcGvr3UauHN4ou+qUWVSd7tdMtfMTiwxXgcNCso57rBk+6QB96+p5cD6pnxrzp15Q8GsTzhF5hJTn',\n    'ama-client-facts': 'eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMjU2R0NNIiwidHlwIjoiSldFIiwia2lkIjoiMjAyMjEyMTUiLCJpc3MiOiJMSF9PTkVCR0tVSSIsInN1YiI6InBpaSJ9.p3H70HGeys6Wc3XBmFyzTl5I4jfATASi0dwpW5BG8hY87yumf7F3avuZicyc8EFA7f3NHqNFC8BJ2KqeyBQVaatpLLgmg_u1jETx_mGysGk2piUcxZdWw9tc-fFL_UcAqb7IWoWDsX98ioWHtUSQZmsbnMla9uLe8jJxmXwGpxlkM-18ftU_fW2TsMHEixWRSCGih8qVBcdZPDk93CE_6SLupL7YOFI8-C8tVdnKtDdECA_VemSW1R7AZmWK7K4z5AYrA3Xf2UKpTs9aSmFdMj1gtJAOeSL2snD5C8N2twq7chv_MfGFhLFVhyJ5gaWjF7phc0x6FIar38w-7_HjVA.ofxIctLwF77hSxy8.ujdXVqcYBRZnTjGhR3ll6BJDCiYO3csvFUhbxNskDuMSXscDNRuSoOwXcHVcU-sh3VMK-GXJoDatM8OS72F7sXsaJvmqtpquYy4rbsnHS6IS3XmbWKw0oSNkYL83rq0KFJUyi5vD6n3F9btN_O0eNlxqphEOnuQq5AatlaU.sBihcrKHADSwiWRw2V29oA',\n    'ama-client-ref': 'b1e06917-c8be-4138-baa2-f1965d962cf3:1',\n    'authorization': 'Bearer eyJLaWQiOiJMSE1EVy1Qcml2YXRlS2lkIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJrN3pwajRzNmsycWJycjR4aHJ6cWE3eW4iLCJsc3MtdXNlcklkIjoiV1NMSERBUExIRCIsIm9mZmljZUlkIjoiRlJBTEgwOEJDIiwidGVuYW50SWQiOiJMSCIsImFwcGxpY2F0aW9uSWQiOiJMSF9PTkVCS0dVSSIsImtleSI6Ims3enBqNHM2azJxYnJyNHhocnpxYTd5biIsImlzcyI6IkNOPVNDLVBST0QsT1U9TEhNRFciLCJleHAiOjE3NzMxNjM0NTksImlhdCI6MTc3MzE2MjU1OSwianRpIjoiYTkzMDM3YmItODQ3NS00MWJhLTk4MWUtMjEzOWZiZWExMmFkIn0.eoZj8cmCmbVxvy9cxD5g2G3qdw-Kd7kwYRXfO_kZiPIWFmCaPS6GPjJT6sacVKXX9voDZCrmE_zyGeECtAAF6-GYcqL68-cbAccIBIVruc-rWudYz_-mRjHzH4-tMB9Z6YgT2gkIy2NPTTSH4md2Pzz2HnE8m3ATpkj0csl2fDFRVReLI-bqq_kWBnkMFMcTRPWFikM9S5YveG0x5PT57Q8P4lVJ4N4n-IL-XhlMaVpeCKt_8m6PbrdeaXZ1w2ygHmA5C8cIl7ochOBf2RHcBzGMtQvWKSHTbH3-YNFGCXysBGKRG_ZgSoysDzvVAGlTAHKCmdQwEWe6oNDXtkMXaA',\n    'cache-control': 'max-age=0',\n    'callid': 'b1e06917-c8be-4138-baa2-f1965d962cf3:1',\n    'content-type': 'application/json',",
+        "detail": "scripts.lufhansa.lufhansa",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "scripts.lufhansa.lufhansa",
+        "description": "scripts.lufhansa.lufhansa",
+        "peekOfCode": "response = requests.get(\n    'https://api-shop.lufthansa.com/v1/one-booking/purchase/orders/$orderId$?lastName=$lastName$&showOrderEligibilities=true',\n    cookies=cookies,\n    headers=headers,\n)\nprint(response)",
+        "detail": "scripts.lufhansa.lufhansa",
+        "documentation": {}
+    },
+    {
+        "label": "get_booking",
+        "kind": 2,
+        "importPath": "scripts.srilanka.srilanka_test",
+        "description": "scripts.srilanka.srilanka_test",
+        "peekOfCode": "def get_booking():\n    # opts = ChromiumOptions()\n    # opts.auto_port()\n    # # run headless\n    # opts.headless(False)\n    # # make headless behave like normal browser\n    # opts.set_argument('--window-size=1920,1080')\n    # opts.set_argument('--disable-gpu')\n    # opts.set_argument('--no-sandbox')\n    # opts.set_argument('--disable-dev-shm-usage')",
+        "detail": "scripts.srilanka.srilanka_test",
+        "documentation": {}
+    },
+    {
+        "label": "PNR",
+        "kind": 5,
+        "importPath": "scripts.srilanka.srilanka_test",
+        "description": "scripts.srilanka.srilanka_test",
+        "peekOfCode": "PNR = \"8O2XSR\"\nLAST_NAME = \"AHUJA\"\ndef get_booking():\n    # opts = ChromiumOptions()\n    # opts.auto_port()\n    # # run headless\n    # opts.headless(False)\n    # # make headless behave like normal browser\n    # opts.set_argument('--window-size=1920,1080')\n    # opts.set_argument('--disable-gpu')",
+        "detail": "scripts.srilanka.srilanka_test",
+        "documentation": {}
+    },
+    {
+        "label": "LAST_NAME",
+        "kind": 5,
+        "importPath": "scripts.srilanka.srilanka_test",
+        "description": "scripts.srilanka.srilanka_test",
+        "peekOfCode": "LAST_NAME = \"AHUJA\"\ndef get_booking():\n    # opts = ChromiumOptions()\n    # opts.auto_port()\n    # # run headless\n    # opts.headless(False)\n    # # make headless behave like normal browser\n    # opts.set_argument('--window-size=1920,1080')\n    # opts.set_argument('--disable-gpu')\n    # opts.set_argument('--no-sandbox')",
+        "detail": "scripts.srilanka.srilanka_test",
+        "documentation": {}
+    },
+    {
+        "label": "generate_numeric_uuid",
+        "kind": 2,
+        "importPath": "scripts.airlines_list_dump",
+        "description": "scripts.airlines_list_dump",
+        "peekOfCode": "def generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)\n# Process JSON files\nfor file in os.listdir(JSON_FOLDER):\n    if file.endswith(\".json\"):\n        file_path = os.path.join(JSON_FOLDER, file)\n        with open(file_path, \"r\", encoding=\"utf-8\") as f:\n            data = json.load(f)\n        records = []\n        if isinstance(data, list):",
+        "detail": "scripts.airlines_list_dump",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "scripts.airlines_list_dump",
+        "description": "scripts.airlines_list_dump",
+        "peekOfCode": "MONGO_URI = \"mongodb+srv://scraping:scraping@scraping.w3hsqwj.mongodb.net/\"\nDB_NAME = \"airlines_db\"\n# Folder containing JSON files\nJSON_FOLDER = \"json_files\"\n# Connect to MongoDB\nclient = MongoClient(MONGO_URI)\ndb = client[DB_NAME]\n# Single collection\nairlines_list = db[\"airlines_list\"]\n# Create unique index",
+        "detail": "scripts.airlines_list_dump",
+        "documentation": {}
+    },
+    {
+        "label": "DB_NAME",
+        "kind": 5,
+        "importPath": "scripts.airlines_list_dump",
+        "description": "scripts.airlines_list_dump",
+        "peekOfCode": "DB_NAME = \"airlines_db\"\n# Folder containing JSON files\nJSON_FOLDER = \"json_files\"\n# Connect to MongoDB\nclient = MongoClient(MONGO_URI)\ndb = client[DB_NAME]\n# Single collection\nairlines_list = db[\"airlines_list\"]\n# Create unique index\nairlines_list.create_index(\"ci_id_airline\", unique=True)",
+        "detail": "scripts.airlines_list_dump",
+        "documentation": {}
+    },
+    {
+        "label": "JSON_FOLDER",
+        "kind": 5,
+        "importPath": "scripts.airlines_list_dump",
+        "description": "scripts.airlines_list_dump",
+        "peekOfCode": "JSON_FOLDER = \"json_files\"\n# Connect to MongoDB\nclient = MongoClient(MONGO_URI)\ndb = client[DB_NAME]\n# Single collection\nairlines_list = db[\"airlines_list\"]\n# Create unique index\nairlines_list.create_index(\"ci_id_airline\", unique=True)\n# Generate numeric UUID stored as STRING\ndef generate_numeric_uuid():",
+        "detail": "scripts.airlines_list_dump",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "scripts.airlines_list_dump",
+        "description": "scripts.airlines_list_dump",
+        "peekOfCode": "client = MongoClient(MONGO_URI)\ndb = client[DB_NAME]\n# Single collection\nairlines_list = db[\"airlines_list\"]\n# Create unique index\nairlines_list.create_index(\"ci_id_airline\", unique=True)\n# Generate numeric UUID stored as STRING\ndef generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)\n# Process JSON files",
+        "detail": "scripts.airlines_list_dump",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "scripts.airlines_list_dump",
+        "description": "scripts.airlines_list_dump",
+        "peekOfCode": "db = client[DB_NAME]\n# Single collection\nairlines_list = db[\"airlines_list\"]\n# Create unique index\nairlines_list.create_index(\"ci_id_airline\", unique=True)\n# Generate numeric UUID stored as STRING\ndef generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)\n# Process JSON files\nfor file in os.listdir(JSON_FOLDER):",
+        "detail": "scripts.airlines_list_dump",
+        "documentation": {}
+    },
+    {
+        "label": "airlines_list",
+        "kind": 5,
+        "importPath": "scripts.airlines_list_dump",
+        "description": "scripts.airlines_list_dump",
+        "peekOfCode": "airlines_list = db[\"airlines_list\"]\n# Create unique index\nairlines_list.create_index(\"ci_id_airline\", unique=True)\n# Generate numeric UUID stored as STRING\ndef generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)\n# Process JSON files\nfor file in os.listdir(JSON_FOLDER):\n    if file.endswith(\".json\"):\n        file_path = os.path.join(JSON_FOLDER, file)",
+        "detail": "scripts.airlines_list_dump",
+        "documentation": {}
+    },
+    {
+        "label": "generate_numeric_uuid",
+        "kind": 2,
+        "importPath": "scripts.mongo_dump",
+        "description": "scripts.mongo_dump",
+        "peekOfCode": "def generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)\n# Process JSON files\nfor file in os.listdir(JSON_FOLDER):\n    if file.endswith(\".json\"):\n        company_name = os.path.splitext(file)[0].lower()\n        # Check if company already exists\n        company = insurance_companies.find_one({\"company_name\": company_name})\n        if company:\n            ci_id = str(company[\"ci_id\"])",
+        "detail": "scripts.mongo_dump",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "scripts.mongo_dump",
+        "description": "scripts.mongo_dump",
+        "peekOfCode": "MONGO_URI = \"mongodb+srv://scraping:scraping@scraping.w3hsqwj.mongodb.net/\"\nDB_NAME = \"insurance_db\"\n# Folder containing JSON files\nJSON_FOLDER = \"json_files\"\n# Connect to MongoDB\nclient = MongoClient(MONGO_URI)\ndb = client[DB_NAME]\ninsurance_companies = db[\"insurance_companies\"]\ninsurance_data = db[\"insurance_data\"]\n# Create indexes",
+        "detail": "scripts.mongo_dump",
+        "documentation": {}
+    },
+    {
+        "label": "DB_NAME",
+        "kind": 5,
+        "importPath": "scripts.mongo_dump",
+        "description": "scripts.mongo_dump",
+        "peekOfCode": "DB_NAME = \"insurance_db\"\n# Folder containing JSON files\nJSON_FOLDER = \"json_files\"\n# Connect to MongoDB\nclient = MongoClient(MONGO_URI)\ndb = client[DB_NAME]\ninsurance_companies = db[\"insurance_companies\"]\ninsurance_data = db[\"insurance_data\"]\n# Create indexes\ninsurance_companies.create_index(\"ci_id\", unique=True)",
+        "detail": "scripts.mongo_dump",
+        "documentation": {}
+    },
+    {
+        "label": "JSON_FOLDER",
+        "kind": 5,
+        "importPath": "scripts.mongo_dump",
+        "description": "scripts.mongo_dump",
+        "peekOfCode": "JSON_FOLDER = \"json_files\"\n# Connect to MongoDB\nclient = MongoClient(MONGO_URI)\ndb = client[DB_NAME]\ninsurance_companies = db[\"insurance_companies\"]\ninsurance_data = db[\"insurance_data\"]\n# Create indexes\ninsurance_companies.create_index(\"ci_id\", unique=True)\ninsurance_companies.create_index(\"company_name\", unique=True)\ninsurance_data.create_index(\"ci_id\")",
+        "detail": "scripts.mongo_dump",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "scripts.mongo_dump",
+        "description": "scripts.mongo_dump",
+        "peekOfCode": "client = MongoClient(MONGO_URI)\ndb = client[DB_NAME]\ninsurance_companies = db[\"insurance_companies\"]\ninsurance_data = db[\"insurance_data\"]\n# Create indexes\ninsurance_companies.create_index(\"ci_id\", unique=True)\ninsurance_companies.create_index(\"company_name\", unique=True)\ninsurance_data.create_index(\"ci_id\")\n# Generate numeric UUID stored as STRING\ndef generate_numeric_uuid():",
+        "detail": "scripts.mongo_dump",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "scripts.mongo_dump",
+        "description": "scripts.mongo_dump",
+        "peekOfCode": "db = client[DB_NAME]\ninsurance_companies = db[\"insurance_companies\"]\ninsurance_data = db[\"insurance_data\"]\n# Create indexes\ninsurance_companies.create_index(\"ci_id\", unique=True)\ninsurance_companies.create_index(\"company_name\", unique=True)\ninsurance_data.create_index(\"ci_id\")\n# Generate numeric UUID stored as STRING\ndef generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)",
+        "detail": "scripts.mongo_dump",
+        "documentation": {}
+    },
+    {
+        "label": "insurance_companies",
+        "kind": 5,
+        "importPath": "scripts.mongo_dump",
+        "description": "scripts.mongo_dump",
+        "peekOfCode": "insurance_companies = db[\"insurance_companies\"]\ninsurance_data = db[\"insurance_data\"]\n# Create indexes\ninsurance_companies.create_index(\"ci_id\", unique=True)\ninsurance_companies.create_index(\"company_name\", unique=True)\ninsurance_data.create_index(\"ci_id\")\n# Generate numeric UUID stored as STRING\ndef generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)\n# Process JSON files",
+        "detail": "scripts.mongo_dump",
+        "documentation": {}
+    },
+    {
+        "label": "insurance_data",
+        "kind": 5,
+        "importPath": "scripts.mongo_dump",
+        "description": "scripts.mongo_dump",
+        "peekOfCode": "insurance_data = db[\"insurance_data\"]\n# Create indexes\ninsurance_companies.create_index(\"ci_id\", unique=True)\ninsurance_companies.create_index(\"company_name\", unique=True)\ninsurance_data.create_index(\"ci_id\")\n# Generate numeric UUID stored as STRING\ndef generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)\n# Process JSON files\nfor file in os.listdir(JSON_FOLDER):",
+        "detail": "scripts.mongo_dump",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "scripts.sriram_insurance",
+        "description": "scripts.sriram_insurance",
+        "peekOfCode": "headers = {\n    'sec-ch-ua-platform': '\"Windows\"',\n    'Referer': 'https://www.shriramlife.com/download-forms',\n    'api-referrer': '/download-forms',\n    'sec-ch-ua': '\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"',\n    'sec-ch-ua-mobile': '?0',\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36',\n    'Accept': 'application/json, text/plain, */*',\n    'Content-Type': 'application/json',\n}",
+        "detail": "scripts.sriram_insurance",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "scripts.sriram_insurance",
+        "description": "scripts.sriram_insurance",
+        "peekOfCode": "response = requests.get('https://www.shriramlife.com/api/v1/claim-forms/claim-centre-forms/5344', headers=headers)\nprint(response.json())\n# https://www.shriramlife.com/api/v1/product-brochure-forms/claim-centre-forms\n# https://www.shriramlife.com/api/v1/new-bussiness-forms/claim-centre-forms\n# https://www.shriramlife.com/api/v1/nach-mandate-forms/claim-centre-forms\n# https://www.shriramlife.com/api/v1/policy-serving-forms/claim-centre-forms/5341\n# https://www.shriramlife.com/api/v1/proposal-forms/claim-centre-forms/5341\n# https://www.shriramlife.com/api/v1/sb-cum-removal-forms/claim-centre-forms/5341\n# https://www.shriramlife.com/api/v1/good-health-forms/claim-centre-forms/5341\n# https://www.shriramlife.com/api/v1/covid-forms/claim-centre-forms/5341",
+        "detail": "scripts.sriram_insurance",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'airlines_main.settings')\n    from django.core.management import execute_from_command_line\n    execute_from_command_line(sys.argv)\nif __name__ == '__main__':\n    main()",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
