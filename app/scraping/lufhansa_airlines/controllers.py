@@ -20,6 +20,12 @@ class LufhansaController:
                 "status": "error",
                 "message": "pnr and last_name required"
             }
+        validpnr = validate_pnr(pnr)
+        if not validpnr:
+            return {
+                "status": "error",
+                "message": "Invalid PNR format. PNR should be 6 characters, alphanumeric and uppercase."
+            }
         try:
 
             # Step 1: Fetch booking from Air India

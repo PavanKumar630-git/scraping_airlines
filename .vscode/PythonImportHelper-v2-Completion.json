@@ -889,7 +889,7 @@
         "kind": 5,
         "importPath": "airlines_main.settings",
         "description": "airlines_main.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"drf_spectacular\",\n    \"app.scraping.airindia_airlines\",\n    \"app.scraping.lufhansa_airlines\",",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"drf_spectacular\",\n    \"app.scraping.airindia_airlines\",\n    # \"app.scraping.lufhansa_airlines\",",
         "detail": "airlines_main.settings",
         "documentation": {}
     },
@@ -898,7 +898,7 @@
         "kind": 5,
         "importPath": "airlines_main.settings",
         "description": "airlines_main.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"drf_spectacular\",\n    \"app.scraping.airindia_airlines\",\n    \"app.scraping.lufhansa_airlines\",\n    \"app.scraping.srilanka_airlines\",",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"drf_spectacular\",\n    \"app.scraping.airindia_airlines\",\n    # \"app.scraping.lufhansa_airlines\",\n    \"app.scraping.srilanka_airlines\",",
         "detail": "airlines_main.settings",
         "documentation": {}
     },
@@ -979,7 +979,7 @@
         "kind": 5,
         "importPath": "airlines_main.urls",
         "description": "airlines_main.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\n        \"docs/\",\n        SpectacularSwaggerView.as_view(url_name=\"schema\"),\n        name=\"swagger-ui\",\n    ),\n    path(\"airindia/\", include(\"app.scraping.airindia_airlines.urls\")),\n    path(\"lufhansa/\", include(\"app.scraping.lufhansa_airlines.urls\")),",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\n        \"docs/\",\n        SpectacularSwaggerView.as_view(url_name=\"schema\"),\n        name=\"swagger-ui\",\n    ),\n    path(\"airindia/\", include(\"app.scraping.airindia_airlines.urls\")),\n    # path(\"lufhansa/\", include(\"app.scraping.lufhansa_airlines.urls\")),",
         "detail": "airlines_main.urls",
         "documentation": {}
     },
@@ -988,7 +988,16 @@
         "kind": 2,
         "importPath": "airlines_main.utility",
         "description": "airlines_main.utility",
-        "peekOfCode": "def generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)",
+        "peekOfCode": "def generate_numeric_uuid():\n    return str(uuid.uuid4().int % 10**18)\ndef validate_pnr(pnr):\n    return len(pnr) == 6 and pnr.isalnum() and pnr.isupper()",
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_pnr",
+        "kind": 2,
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "peekOfCode": "def validate_pnr(pnr):\n    return len(pnr) == 6 and pnr.isalnum() and pnr.isupper()",
         "detail": "airlines_main.utility",
         "documentation": {}
     },
@@ -1006,7 +1015,7 @@
         "kind": 6,
         "importPath": "app.scraping.airindia_airlines.services.airindia_service",
         "description": "app.scraping.airindia_airlines.services.airindia_service",
-        "peekOfCode": "class AirIndiaService:\n    @staticmethod\n    def get_tokens_drission(pnr: str, last_name: str):\n        opts = ChromiumOptions()\n        opts.auto_port()\n        opts.headless(True)\n        opts.set_argument(\"--disable-blink-features=AutomationControlled\")\n        opts.set_argument(\"--no-sandbox\")\n        opts.set_argument(\"--disable-gpu\")\n        opts.set_argument(\"--disable-http2\")",
+        "peekOfCode": "class AirIndiaService:\n    @staticmethod\n    def get_tokens_drission(pnr: str, last_name: str):\n        opts = ChromiumOptions()\n        opts.auto_port()\n        opts.headless(False)\n        opts.set_argument(\"--disable-blink-features=AutomationControlled\")\n        opts.set_argument(\"--no-sandbox\")\n        opts.set_argument(\"--disable-gpu\")\n        opts.set_argument(\"--disable-http2\")",
         "detail": "app.scraping.airindia_airlines.services.airindia_service",
         "documentation": {}
     },

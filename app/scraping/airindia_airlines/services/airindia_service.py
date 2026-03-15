@@ -11,7 +11,7 @@ class AirIndiaService:
     def get_tokens_drission(pnr: str, last_name: str):
         opts = ChromiumOptions()
         opts.auto_port()
-        opts.headless(True)
+        opts.headless(False)
         opts.set_argument("--disable-blink-features=AutomationControlled")
         opts.set_argument("--no-sandbox")
         opts.set_argument("--disable-gpu")
@@ -262,6 +262,7 @@ class BookingIngestionService:
             "ci_id":each_ci_id,
             "pnr": pnr,
             "last_name": last_name,
+            "airline": "Air India",
 
             "order_id": self.data.get("id"),
             "creation_datetime": self.data.get("creationDateTime"),
@@ -333,7 +334,7 @@ class BookingIngestionService:
                 "ci_id":each_ci_id,
                 "pnr": pnr,
                 "last_name": last_name,
-
+                "airline": "Air India",
                 "traveler_id": traveler_id,
                 "passenger_type_code": traveler.get("passengerTypeCode"),
 
@@ -378,7 +379,7 @@ class BookingIngestionService:
                     "ci_id":each_ci_id,
                     "pnr": pnr,
                     "last_name": last_name,
-
+                    "airline": "Air India",
                     "air_bound_id": bound.get("airBoundId"),
 
                     "origin": bound.get("originLocationCode"),
@@ -423,7 +424,7 @@ class BookingIngestionService:
                 "ci_id":each_ci_id,
                 "pnr": pnr,
                 "last_name": last_name,
-
+                "airline": "Air India",
                 "ticket_number": doc.get("id"),  # FIXED
                 "traveler_ids": doc.get("travelerIds", []),
 

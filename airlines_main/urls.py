@@ -19,6 +19,6 @@ urlpatterns = [
         name="swagger-ui",
     ),
     path("airindia/", include("app.scraping.airindia_airlines.urls")),
-    path("lufhansa/", include("app.scraping.lufhansa_airlines.urls")),
+    # path("lufhansa/", include("app.scraping.lufhansa_airlines.urls")),
     path("srilanka/", include("app.scraping.srilanka_airlines.urls")),
 ]

@@ -67,3 +67,9 @@ class MongoService:
         collection = self.get_collection(collection_name)
 
         return list(collection.find({}, {"_id": 0}))
+    
+    
+    def check_pnr_exists(self, collection_name: str, query: dict) -> dict:
+        collection = self.get_collection(collection_name)
+        doc = collection.find_one(query, {"ci_id": 1, "_id": 0})
+        return {"exists": bool(doc), "ci_id": doc.get("ci_id") if doc else None}

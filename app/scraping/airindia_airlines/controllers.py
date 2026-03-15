@@ -61,10 +61,32 @@ class AirIndiaController:
                 "status": "error",
                 "message": "pnr and last_name required"
             }
+        validpnr = validate_pnr(pnr)
+        if not validpnr:
+            return {
+                "status": "error",
+                "message": "Invalid PNR format. PNR should be 6 characters, alphanumeric and uppercase."
+            }
         try:
+            mongo = MongoService()
+
+            # Check by PNR + airline before ingesting
+            already_exists = mongo.check_pnr_exists("airlines_raw_data", {
+                "pnr": pnr
+            })
+
+            if already_exists['exists']:
+                return_data = {
+                "status": "failed",
+                "message": f"Booking with this PNR already exists, Please Check the PNR in Mongo DB -> airlines_raw_data collection with ci_id: {already_exists['ci_id']}"
+                }
+                return return_data
+            else:
+                pass
 
             # Step 1: Fetch booking from Air India
             result = AirIndiaService.fetch_booking(pnr, last_name)
+            print("Result from scraper:", result)
 
             # Step 2: Generate CI ID
             ci_id = generate_numeric_uuid()

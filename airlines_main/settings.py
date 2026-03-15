@@ -18,7 +18,7 @@ INSTALLED_APPS = [
     "drf_spectacular",
     
     "app.scraping.airindia_airlines",
-    "app.scraping.lufhansa_airlines",
+    # "app.scraping.lufhansa_airlines",
     "app.scraping.srilanka_airlines",
  
 
