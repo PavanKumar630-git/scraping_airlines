@@ -1,28 +1,22 @@
 from DrissionPage import ChromiumPage, ChromiumOptions
 
 
-class LufthansaBooking:
-    BASE_URL    = "https://www.lufthansa.com/in/en/login?deeplinkRedirect=true"
-    API_PATTERN = "lufthansa.com"
+class QantasBooking:
+    BASE_URL    = "https://www.qantas.com/en-in/manage-booking"
+    API_PATTERN = "qantas.com"
 
     COOKIE_XPATH = (
         'xpath://button[contains(text(),"Accept") or contains(text(),"accept") '
         'or contains(text(),"OK") or contains(@id,"accept") or contains(@id,"cookie")]'
     )
-    BOOKING_TAB_XPATH = (
-        'xpath:/html/body/div[2]/div[4]/div[2]/div/div[2]/div/div/div/div[2]'
-        '/div[2]/div/maui-button//button'
-    )
     PNR_XPATH = (
-        'xpath://*[@id="dcep-ab8406fc2-91f6-443d-a0f5-1fd5b61ff821'
-        '-loginBOOKING-loginPNRFormQuery.j_bookingcode-input"]'
+        'xpath:/html/body/main/div[3]/div[1]/div/div/div/div/form/div[2]/div/div[1]/input'
     )
     LAST_NAME_XPATH = (
-        'xpath://*[@id="dcep-ab8406fc2-91f6-443d-a0f5-1fd5b61ff821'
-        '-loginBOOKING-loginPNRFormQuery.j_lastname-input"]'
+        'xpath:/html/body/main/div[3]/div[1]/div/div/div/div/form/div[2]/div/div[2]/input'
     )
     SUBMIT_XPATH = (
-        'xpath:/html/body/maui-modal[1]/div/div/form/div/div/maui-button//button'
+        'xpath:/html/body/main/div[3]/div[1]/div/div/div/div/form/div[2]/div/div[3]/input'
     )
 
     def __init__(self, pnr: str, last_name: str, headless: bool = False):
@@ -71,11 +65,6 @@ class LufthansaBooking:
         except Exception:
             print("No cookie banner found, skipping.")
 
-    def _open_booking_tab(self) -> None:
-        print("Clicking Booking tab...")
-        self.page.ele(self.BOOKING_TAB_XPATH, timeout=20).click(by_js=True)
-        self.page.wait(2)
-
     def _fill_form(self) -> None:
         print("Entering PNR...")
         pnr_input = self.page.ele(self.PNR_XPATH, timeout=20)
@@ -95,11 +84,11 @@ class LufthansaBooking:
         print("Waiting for API response...")
         for packet in self.page.listen.steps(timeout=timeout):
             print(f"URL: {packet.url}")
-            if "lufthansa.com" in packet.url and packet.response:
+            if "qantas.com" in packet.url and packet.response:
                 body = packet.response.body
                 if body:
                     return body
-        raise TimeoutError(f"No Lufthansa API response received within {timeout}s.")
+        raise TimeoutError(f"No Qantas API response received within {timeout}s.")
 
     def _close(self) -> None:
         if self.page:
@@ -111,12 +100,11 @@ class LufthansaBooking:
     # ------------------------------------------------------------------ #
 
     def fetch(self) -> dict:
-        """Open Lufthansa login, submit booking credentials, return API response body."""
+        """Open Qantas manage booking, submit credentials, return API response body."""
         try:
             self._init_page()
             self._open_site()
             self._accept_cookies()
-            self._open_booking_tab()
             self._fill_form()
             self._submit_form()
             return self._wait_for_response()
@@ -137,9 +125,9 @@ class LufthansaBooking:
 # ---------------------------------------------------------------------- #
 
 if __name__ == "__main__":
-    PNR       = "7U42W6"
-    LAST_NAME = "BALAJI"
+    PNR       = "9PF6LR"
+    LAST_NAME = "REKHI"
 
-    scraper = LufthansaBooking(PNR, LAST_NAME)
+    scraper = QantasBooking(PNR, LAST_NAME)
     data    = scraper.fetch()
     print(data)

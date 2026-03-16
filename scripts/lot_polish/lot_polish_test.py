@@ -50,13 +50,13 @@ def get_booking():
 
     # Enter PNR
     print("Entering PNR...")
-    pnr_input = page.ele('xpath://*[@id="lot-input-4"]', timeout=20)
+    pnr_input = page.ele('xpath://*[@formcontrolname="bookingReferenceField"]', timeout=20)
     pnr_input.clear()
     pnr_input.input(PNR)
 
     # Enter Last Name
     print("Entering Last Name...")
-    last_name_input = page.ele('xpath://*[@id="lot-input-5"]', timeout=20)
+    last_name_input = page.ele('xpath://*[@formcontrolname="lastNameField"]', timeout=20)
     last_name_input.clear()
     last_name_input.input(LAST_NAME)
 

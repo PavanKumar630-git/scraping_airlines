@@ -49,5 +49,6 @@ urlpatterns = [
     path("srilanka/", include("app.scraping.srilanka_airlines.urls")),
     path("malaysia/", include("app.scraping.malaysia_airlines.urls")),
     path("azerbaijan/", include("app.scraping.azerbaijan_airlines.urls")),
+    path("lotpolish/", include("app.scraping.lotpolish_airlines.urls")),
 
 ]

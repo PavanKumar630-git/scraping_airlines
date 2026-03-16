@@ -89,6 +89,54 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "JsonResponse",
         "importPath": "django.http",
         "description": "django.http",
@@ -110,6 +158,30 @@
         "description": "drf_spectacular.views",
         "isExtraImport": true,
         "detail": "drf_spectacular.views",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
         "documentation": {}
     },
     {
@@ -167,14 +239,6 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "requests",
-        "importPath": "curl_cffi",
-        "description": "curl_cffi",
-        "isExtraImport": true,
-        "detail": "curl_cffi",
         "documentation": {}
     },
     {
@@ -323,6 +387,134 @@
         "documentation": {}
     },
     {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "generate_numeric_uuid",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
         "label": "generate_numeric_uuid",
         "importPath": "airlines_main.utility",
         "description": "airlines_main.utility",
@@ -340,6 +532,38 @@
     },
     {
         "label": "*",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "generate_numeric_uuid",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "airlines_main.utility",
+        "description": "airlines_main.utility",
+        "isExtraImport": true,
+        "detail": "airlines_main.utility",
+        "documentation": {}
+    },
+    {
+        "label": "generate_numeric_uuid",
         "importPath": "airlines_main.utility",
         "description": "airlines_main.utility",
         "isExtraImport": true,
@@ -393,6 +617,78 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
+        "documentation": {}
+    },
+    {
+        "label": "MongoService",
+        "importPath": "app.scraping.services.mongo_service",
+        "description": "app.scraping.services.mongo_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.mongo_service",
         "documentation": {}
     },
     {
@@ -469,6 +765,30 @@
         "documentation": {}
     },
     {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
         "label": "AirIndiaService",
         "importPath": "app.scraping.airindia_airlines.services.airindia_service",
         "description": "app.scraping.airindia_airlines.services.airindia_service",
@@ -506,6 +826,54 @@
         "description": "app.scraping.services.pdf_service",
         "isExtraImport": true,
         "detail": "app.scraping.services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "PDFService",
+        "importPath": "app.scraping.services.pdf_service",
+        "description": "app.scraping.services.pdf_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "PDFService",
+        "importPath": "app.scraping.services.pdf_service",
+        "description": "app.scraping.services.pdf_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "PDFService",
+        "importPath": "app.scraping.services.pdf_service",
+        "description": "app.scraping.services.pdf_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -669,6 +1037,102 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
         "label": "Response",
         "importPath": "rest_framework.response",
         "description": "rest_framework.response",
@@ -741,6 +1205,38 @@
         "documentation": {}
     },
     {
+        "label": "swagger_auto_schema",
+        "importPath": "drf_yasg.utils",
+        "description": "drf_yasg.utils",
+        "isExtraImport": true,
+        "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_auto_schema",
+        "importPath": "drf_yasg.utils",
+        "description": "drf_yasg.utils",
+        "isExtraImport": true,
+        "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_auto_schema",
+        "importPath": "drf_yasg.utils",
+        "description": "drf_yasg.utils",
+        "isExtraImport": true,
+        "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
         "label": "action",
         "importPath": "rest_framework.decorators",
         "description": "rest_framework.decorators",
@@ -762,6 +1258,46 @@
         "description": "rest_framework.decorators",
         "isExtraImport": true,
         "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
         "documentation": {}
     },
     {
@@ -790,6 +1326,38 @@
     },
     {
         "label": "*",
+        "importPath": "app.scraping.azerbaijan_airlines.azerbaijan_service",
+        "description": "app.scraping.azerbaijan_airlines.azerbaijan_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.azerbaijan_airlines.azerbaijan_service",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.scraping.azerbaijan_airlines.services",
+        "description": "app.scraping.azerbaijan_airlines.services",
+        "isExtraImport": true,
+        "detail": "app.scraping.azerbaijan_airlines.services",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.scraping.lotpolish_airlines.lotpolish_service",
+        "description": "app.scraping.lotpolish_airlines.lotpolish_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.lotpolish_airlines.lotpolish_service",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.scraping.lotpolish_airlines.services",
+        "description": "app.scraping.lotpolish_airlines.services",
+        "isExtraImport": true,
+        "detail": "app.scraping.lotpolish_airlines.services",
+        "documentation": {}
+    },
+    {
+        "label": "*",
         "importPath": "app.scraping.lufhansa_airlines.lufhansa_service",
         "description": "app.scraping.lufhansa_airlines.lufhansa_service",
         "isExtraImport": true,
@@ -812,6 +1380,22 @@
         "importPath": "time",
         "description": "time",
         "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.scraping.malaysia_airlines.malaysia_service",
+        "description": "app.scraping.malaysia_airlines.malaysia_service",
+        "isExtraImport": true,
+        "detail": "app.scraping.malaysia_airlines.malaysia_service",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.scraping.malaysia_airlines.services",
+        "description": "app.scraping.malaysia_airlines.services",
+        "isExtraImport": true,
+        "detail": "app.scraping.malaysia_airlines.services",
         "documentation": {}
     },
     {
@@ -1028,7 +1612,7 @@
         "kind": 5,
         "importPath": "airlines_main.urls",
         "description": "airlines_main.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"docs/\", SpectacularSwaggerView.as_view(url_name=\"schema\"), name=\"swagger-ui\"),\n    # /common/soft-delete/\n    path(\"\", include(common_router.urls)),\n    # Airline specific\n    path(\"airindia/\", include(\"app.scraping.airindia_airlines.urls\")),\n    path(\"srilanka/\", include(\"app.scraping.srilanka_airlines.urls\")),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", home),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"docs/\", SpectacularSwaggerView.as_view(url_name=\"schema\"), name=\"swagger-ui\"),\n    # /common/soft-delete/\n    path(\"\", include(common_router.urls)),\n    # Airline specific\n    path(\"airindia/\", include(\"app.scraping.airindia_airlines.urls\")),\n    path(\"srilanka/\", include(\"app.scraping.srilanka_airlines.urls\")),\n    path(\"malaysia/\", include(\"app.scraping.malaysia_airlines.urls\")),",
         "detail": "airlines_main.urls",
         "documentation": {}
     },
@@ -1753,6 +2337,168 @@
         "documentation": {}
     },
     {
+        "label": "AzalIngestionService",
+        "kind": 6,
+        "importPath": "app.scraping.azerbaijan_airlines.azerbaijan_service",
+        "description": "app.scraping.azerbaijan_airlines.azerbaijan_service",
+        "peekOfCode": "class AzalIngestionService:\n    def __init__(self, raw_data: dict, ci_id):\n        self.raw    = raw_data\n        # Azal response root has 'order' not 'data'\n        self.order  = raw_data.get(\"order\", raw_data)\n        self.flight = self.order.get(\"flight\", {})\n        self.ci_id  = str(ci_id)\n        mongo = MongoService()\n        self.raw_col    = mongo.get_collection(\"airlines_raw_data\")\n        self.header_col = mongo.get_collection(\"header_info\")",
+        "detail": "app.scraping.azerbaijan_airlines.azerbaijan_service",
+        "documentation": {}
+    },
+    {
+        "label": "AzerbaijanController",
+        "kind": 6,
+        "importPath": "app.scraping.azerbaijan_airlines.controllers",
+        "description": "app.scraping.azerbaijan_airlines.controllers",
+        "peekOfCode": "class AzerbaijanController:\n    @staticmethod\n    def get_booking_details(payload):\n        pnr = payload.get(\"pnr\")\n        last_name = payload.get(\"last_name\")\n        if not pnr or not last_name:\n            return {\n                \"status\": \"error\",\n                \"message\": \"pnr and last_name required\"\n            }",
+        "detail": "app.scraping.azerbaijan_airlines.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "LufhansaDocument",
+        "kind": 6,
+        "importPath": "app.scraping.azerbaijan_airlines.models",
+        "description": "app.scraping.azerbaijan_airlines.models",
+        "peekOfCode": "class LufhansaDocument(models.Model):\n    pdf_url = models.URLField()\n    file_path = models.CharField(max_length=500)\n    source = models.CharField(max_length=200)\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "app.scraping.azerbaijan_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "AzerbaijanSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.azerbaijan_airlines.serializers",
+        "description": "app.scraping.azerbaijan_airlines.serializers",
+        "peekOfCode": "class AzerbaijanSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = LufhansaDocument\n        fields = \"__all__\"\nclass AzerbaijanTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.azerbaijan_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AzerbaijanTokenDetails",
+        "kind": 6,
+        "importPath": "app.scraping.azerbaijan_airlines.serializers",
+        "description": "app.scraping.azerbaijan_airlines.serializers",
+        "peekOfCode": "class AzerbaijanTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.azerbaijan_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AzalBooking",
+        "kind": 6,
+        "importPath": "app.scraping.azerbaijan_airlines.services",
+        "description": "app.scraping.azerbaijan_airlines.services",
+        "peekOfCode": "class AzalBooking:\n    def __init__(self, pnr, last_name):\n        self.pnr = pnr\n        self.last_name = last_name\n        self.page = None\n    def init_browser(self):\n        opts = ChromiumOptions()\n        opts.auto_port()\n        opts.headless(True)\n        opts.set_argument('--window-size=1920,1080')",
+        "detail": "app.scraping.azerbaijan_airlines.services",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.scraping.azerbaijan_airlines.urls",
+        "description": "app.scraping.azerbaijan_airlines.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"\", AzerbaijanViewer, basename=\"azerbaijan\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.azerbaijan_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.scraping.azerbaijan_airlines.urls",
+        "description": "app.scraping.azerbaijan_airlines.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.azerbaijan_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "AzerbaijanViewer",
+        "kind": 6,
+        "importPath": "app.scraping.azerbaijan_airlines.views",
+        "description": "app.scraping.azerbaijan_airlines.views",
+        "peekOfCode": "class AzerbaijanViewer(viewsets.ViewSet):\n    @extend_schema(summary=\"Azerbaijan Airlines\",\n        request=AzerbaijanTokenDetails)\n    @action(detail=False, methods=[\"post\"], url_path=\"get-details\")\n    def login(self, request):\n        serializer = AzerbaijanTokenDetails(data=request.data)\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=400)\n        data = AzerbaijanController.get_booking_details(serializer.validated_data)\n        return Response(data)",
+        "detail": "app.scraping.azerbaijan_airlines.views",
+        "documentation": {}
+    },
+    {
+        "label": "LotPolishController",
+        "kind": 6,
+        "importPath": "app.scraping.lotpolish_airlines.controllers",
+        "description": "app.scraping.lotpolish_airlines.controllers",
+        "peekOfCode": "class LotPolishController:\n    @staticmethod\n    def get_booking_details(payload):\n        pnr = payload.get(\"pnr\")\n        last_name = payload.get(\"last_name\")\n        if not pnr or not last_name:\n            return {\n                \"status\": \"error\",\n                \"message\": \"pnr and last_name required\"\n            }",
+        "detail": "app.scraping.lotpolish_airlines.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "LotPolishIngestionService",
+        "kind": 6,
+        "importPath": "app.scraping.lotpolish_airlines.lotpolish_service",
+        "description": "app.scraping.lotpolish_airlines.lotpolish_service",
+        "peekOfCode": "class LotPolishIngestionService:\n    def __init__(self, raw_data: dict, ci_id):\n        self.raw   = raw_data\n        self.data  = raw_data.get(\"data\", raw_data)\n        self.air   = self.data.get(\"air\", {})\n        self.ci_id = str(ci_id)\n        # Dictionaries block — used for code → name lookups\n        self.dicts = raw_data.get(\"dictionaries\", {})\n        mongo = MongoService()\n        self.raw_col    = mongo.get_collection(\"airlines_raw_data\")",
+        "detail": "app.scraping.lotpolish_airlines.lotpolish_service",
+        "documentation": {}
+    },
+    {
+        "label": "LufhansaDocument",
+        "kind": 6,
+        "importPath": "app.scraping.lotpolish_airlines.models",
+        "description": "app.scraping.lotpolish_airlines.models",
+        "peekOfCode": "class LufhansaDocument(models.Model):\n    pdf_url = models.URLField()\n    file_path = models.CharField(max_length=500)\n    source = models.CharField(max_length=200)\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "app.scraping.lotpolish_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "LotPolishSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.lotpolish_airlines.serializers",
+        "description": "app.scraping.lotpolish_airlines.serializers",
+        "peekOfCode": "class LotPolishSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = LufhansaDocument\n        fields = \"__all__\"\nclass LotPolishTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.lotpolish_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "LotPolishTokenDetails",
+        "kind": 6,
+        "importPath": "app.scraping.lotpolish_airlines.serializers",
+        "description": "app.scraping.lotpolish_airlines.serializers",
+        "peekOfCode": "class LotPolishTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.lotpolish_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "LotPolishBooking",
+        "kind": 6,
+        "importPath": "app.scraping.lotpolish_airlines.services",
+        "description": "app.scraping.lotpolish_airlines.services",
+        "peekOfCode": "class LotPolishBooking:\n    API_PATTERN = \"lot.com/api/v1/ibe/purchase/order-retrieve\"\n    BASE_URL = \"https://www.lot.com/in/en\"\n    COOKIE_XPATH = (\n        'xpath://button[contains(text(),\"Accept\") or contains(text(),\"accept\") '\n        'or contains(text(),\"OK\") or contains(@id,\"accept\") or contains(@id,\"cookie\")]'\n    )\n    MANAGE_BOOKING_XPATH = 'xpath://*[@id=\"managebooking2_booker-nav-button\"]'\n    PNR_XPATH = 'xpath://*[@formcontrolname=\"bookingReferenceField\"]'\n    LAST_NAME_XPATH = 'xpath://*[@formcontrolname=\"lastNameField\"]'",
+        "detail": "app.scraping.lotpolish_airlines.services",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.scraping.lotpolish_airlines.urls",
+        "description": "app.scraping.lotpolish_airlines.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"\", LotPolishViewer, basename=\"lotpolish\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.lotpolish_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.scraping.lotpolish_airlines.urls",
+        "description": "app.scraping.lotpolish_airlines.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.lotpolish_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "LotPolishViewer",
+        "kind": 6,
+        "importPath": "app.scraping.lotpolish_airlines.views",
+        "description": "app.scraping.lotpolish_airlines.views",
+        "peekOfCode": "class LotPolishViewer(viewsets.ViewSet):\n    @extend_schema(summary=\"LotPolish Airlines\",\n        request=LotPolishTokenDetails)\n    @action(detail=False, methods=[\"post\"], url_path=\"get-details\")\n    def login(self, request):\n        serializer = LotPolishTokenDetails(data=request.data)\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=400)\n        data = LotPolishController.get_booking_details(serializer.validated_data)\n        return Response(data)",
+        "detail": "app.scraping.lotpolish_airlines.views",
+        "documentation": {}
+    },
+    {
         "label": "LufhansaController",
         "kind": 6,
         "importPath": "app.scraping.lufhansa_airlines.controllers",
@@ -1822,6 +2568,87 @@
         "description": "app.scraping.lufhansa_airlines.views",
         "peekOfCode": "class LufhansaViewer(viewsets.ViewSet):\n    @extend_schema(summary=\"Lufhansa Airlines\",\n        request=LufhansaTokenDetails)\n    @action(detail=False, methods=[\"post\"], url_path=\"get-details\")\n    def login(self, request):\n        serializer = LufhansaTokenDetails(data=request.data)\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=400)\n        data = LufhansaController.get_booking_details(serializer.validated_data)\n        return Response(data)",
         "detail": "app.scraping.lufhansa_airlines.views",
+        "documentation": {}
+    },
+    {
+        "label": "MalaysiaController",
+        "kind": 6,
+        "importPath": "app.scraping.malaysia_airlines.controllers",
+        "description": "app.scraping.malaysia_airlines.controllers",
+        "peekOfCode": "class MalaysiaController:\n    @staticmethod\n    def get_booking_details(payload):\n        pnr = payload.get(\"pnr\")\n        last_name = payload.get(\"last_name\")\n        if not pnr or not last_name:\n            return {\n                \"status\": \"error\",\n                \"message\": \"pnr and last_name required\"\n            }",
+        "detail": "app.scraping.malaysia_airlines.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "MalaysiaIngestionService",
+        "kind": 6,
+        "importPath": "app.scraping.malaysia_airlines.malaysia_service",
+        "description": "app.scraping.malaysia_airlines.malaysia_service",
+        "peekOfCode": "class MalaysiaIngestionService:\n    def __init__(self, raw_data: dict, ci_id):\n        self.raw  = raw_data\n        self.data = raw_data.get(\"data\", raw_data)\n        self.ci_id = str(ci_id)\n        mongo = MongoService()\n        self.raw_col    = mongo.get_collection(\"airlines_raw_data\")\n        self.header_col = mongo.get_collection(\"header_info\")\n        self.pax_col    = mongo.get_collection(\"pax_info\")\n        self.flight_col = mongo.get_collection(\"flight_info\")",
+        "detail": "app.scraping.malaysia_airlines.malaysia_service",
+        "documentation": {}
+    },
+    {
+        "label": "LufhansaDocument",
+        "kind": 6,
+        "importPath": "app.scraping.malaysia_airlines.models",
+        "description": "app.scraping.malaysia_airlines.models",
+        "peekOfCode": "class LufhansaDocument(models.Model):\n    pdf_url = models.URLField()\n    file_path = models.CharField(max_length=500)\n    source = models.CharField(max_length=200)\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "app.scraping.malaysia_airlines.models",
+        "documentation": {}
+    },
+    {
+        "label": "MalaysiaSerializer",
+        "kind": 6,
+        "importPath": "app.scraping.malaysia_airlines.serializers",
+        "description": "app.scraping.malaysia_airlines.serializers",
+        "peekOfCode": "class MalaysiaSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = LufhansaDocument\n        fields = \"__all__\"\nclass MalaysiaTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.malaysia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MalaysiaTokenDetails",
+        "kind": 6,
+        "importPath": "app.scraping.malaysia_airlines.serializers",
+        "description": "app.scraping.malaysia_airlines.serializers",
+        "peekOfCode": "class MalaysiaTokenDetails(serializers.Serializer):\n    pnr = serializers.CharField()\n    last_name = serializers.CharField()",
+        "detail": "app.scraping.malaysia_airlines.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MalaysiaBooking",
+        "kind": 6,
+        "importPath": "app.scraping.malaysia_airlines.services",
+        "description": "app.scraping.malaysia_airlines.services",
+        "peekOfCode": "class MalaysiaBooking:\n    def __init__(self, pnr, last_name):\n        self.pnr = pnr\n        self.last_name = last_name\n        self.page = None\n    def init_browser(self):\n        opts = ChromiumOptions()\n        opts.auto_port()\n        opts.headless(True)\n        opts.set_argument('--window-size=1920,1080')",
+        "detail": "app.scraping.malaysia_airlines.services",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.scraping.malaysia_airlines.urls",
+        "description": "app.scraping.malaysia_airlines.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"\", MalaysiaViewer, basename=\"malaysia\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.malaysia_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.scraping.malaysia_airlines.urls",
+        "description": "app.scraping.malaysia_airlines.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "app.scraping.malaysia_airlines.urls",
+        "documentation": {}
+    },
+    {
+        "label": "MalaysiaViewer",
+        "kind": 6,
+        "importPath": "app.scraping.malaysia_airlines.views",
+        "description": "app.scraping.malaysia_airlines.views",
+        "peekOfCode": "class MalaysiaViewer(viewsets.ViewSet):\n    @extend_schema(summary=\"Malaysia Airlines\",\n        request=MalaysiaTokenDetails)\n    @action(detail=False, methods=[\"post\"], url_path=\"get-details\")\n    def login(self, request):\n        serializer = MalaysiaTokenDetails(data=request.data)\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=400)\n        data = MalaysiaController.get_booking_details(serializer.validated_data)\n        return Response(data)",
+        "detail": "app.scraping.malaysia_airlines.views",
         "documentation": {}
     },
     {
@@ -2077,29 +2904,65 @@
         "documentation": {}
     },
     {
-        "label": "cookies",
-        "kind": 5,
-        "importPath": "scripts.lufhansa.lufhansa",
-        "description": "scripts.lufhansa.lufhansa",
-        "peekOfCode": "cookies = {\n    'cmv3': 'true',\n    'storekayakclickid': 'undefined',\n    'CONSENTMGR': 'c1:1%7Cc2:1%7Cc3:1%7Cc4:1%7Cts:1773162523139%7Cconsent:true',\n    'mt.v': '2.308964706.1773162523552',\n    '_gcl_au': '1.1.903487803.1773162524',\n    '_ga': 'GA1.2.1697794546.1773162524',\n    '_fbp': 'fb.1.1773162524276.782692572833487892',\n    '_uetsid': 'cb65d5a01ca311f1a5ba0fe8e06662cf',\n    '_uetvid': 'cb6613901ca311f1842a1fbdae62caad',",
-        "detail": "scripts.lufhansa.lufhansa",
+        "label": "get_booking",
+        "kind": 2,
+        "importPath": "scripts.azerbaizan.azerbaizan_airlines",
+        "description": "scripts.azerbaizan.azerbaizan_airlines",
+        "peekOfCode": "def get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(True)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")\n    opts.set_user_agent(",
+        "detail": "scripts.azerbaizan.azerbaizan_airlines",
         "documentation": {}
     },
     {
-        "label": "headers",
+        "label": "PNR",
         "kind": 5,
-        "importPath": "scripts.lufhansa.lufhansa",
-        "description": "scripts.lufhansa.lufhansa",
-        "peekOfCode": "headers = {\n    'accept': 'application/json',\n    'accept-language': 'en-US,en;q=0.9',\n    'akamai-bm-telemetry': 'a=7C549EDB737073FDA7F0FF5D7585C72F&&&e=7DD4F18EEFCE9C2124716FB7B6398858~YAAQBiozavX9+rScAQAAw2O52B9Ybqr7MzbLkNky0Iv+qomSlqXhbJVXIqHy9bRkxdvDcxzp0kRYkQiaVdla8boVR3dR/Obntf5GRhfqN20JcJv40lK2i2neqUx7bu4Z8bcHj5wb+FA/nNG5ELAJIwt2brQrywLKLDjnHjZirtK8nHCVixJOLhKujodvfHuWrh2dG6+5/W8h3fmuo+S0Cn2E0YxQVET/SqrjnV2RepFlsrAo4AV4KeKdyW+dRYRRzMVcDr4ufbnXSHYf4nDw/Amw59JH5/C8SohcjfwOq+3m7+2zMhnxD+hkoQgp2JqSUXMP6AkQ54CJyi0LjFeC1qwSN2NurnR+Y54j6PiDMq04MCER1T90YVooOEuSJqQbFlm1zO/648r7pP7AaoYfrw==~3290947~3228997&&&sensor_data=MzsxOzI7MDszMjkwOTQ3O3dOWDdQN1ZXek5oQ3U2SnVuQVg1UWMveGlRelN2bHVvN3NURUQ5U1V3a0U9OzgsMzQsMCwwLDEsMDt1aj8sXXtJZiJZNnQiNSJWLVEsP3osSiIyeEQiV2pCIiAidCw6JUFHfSZjPUVEclRqI2h8anxhaGR4e3I5SzheWC47bmslei1ZSVRmO3psIls3bSJhK0QiMiIiUiJwU0ciSCIiZSJbQ1YieXxXIiAzfCJyMngmayJxRTEiPiIifm9lIkEpLiJpIjgjbSAiYiJNLnoiZiIiZiJbRXEiN2heTDs+NyJfUzEiMyNnbXYwIiJzInx2RSJhIkNHLWtRImRlYyJURUYiQlFyemIiKF4iYSIiaSJ1U3AiZ1dqRiMiT1VvWyJBIiJeX2MiRioiQmdXRzEiXjYsIkciKjBgLjIwRFklci9xKEQkK3xNOj9OPWAzLFs0Plt0TVR1MUAkfCU+WCM+byUiYCI9UmEifmdAfkkiISh1IlsiPWg1NSEtfS5fbHJEVjciSSIgLG4iVTg9Kj0xIiFxPCMrQS8iMCA3M3skXUkiW10/ImgiIn0iPVdTIj4iIiQ7NGciIj8iNDtRInQ4RExZV2lLVnFXIi56Nz4idCprJUoiUGdLMyJuQUgkQnh6VUoiODJMWnEibCpbIiAgSDYiTz9mfnpMcm8iTHhPInEiPSIwME4iUjs5Ii82WVBvalEiRC1TODxYWVIpUi9gICpOdmFkOlljdzNgM0Z9MGFHOzY1JU9YOFErYXtbRWIlW3gsNi9EMzRIYm4+TS5LVG9QQ1B3RDJ2KkIqUlhYYCpvOnxqPjF2cG96XzVUMEB4fk4+SWx9NzVpOG5rYTkzW0RrIiw8aiJGM2giISI0b0J4ZSJOMmAiZ09qS1QiLSRaeVN0JWg9KTM9S3pAIklmTiJjImlIIjlOcSIwVlFHIlE0VjRDIjFoMTMiVCZLI0krJkpXalZHPVs1IkZ8IkoiKHNROVVhVERZcEheUCEiMSVAIi4/KyJldEArbCJiNUEiWyJUbCI/IitQIyJrRX1vQSJIaEoiM1B4VDZ7eH4iZF5rIll2InwgQSIsUEQiVyIiVCItVCJxIiJFInNxKSJXIip6bChXe3M4PnJ4IiJOInBNPSJJIkprQ0VMaGRINFlaRiwtQkkjMGFyL0VIOyVUP35tL3RTUTJLe2JzdjE7WjtNRzI2OEJXJk1pRFUiPyJxa0wiJiojaC4iICggIiwiTmsiVjxnIm9Ha3UiNyIieyJdUzIiPEQqUWJSIl8rWG0ibV1eLHYqIms7QywiYXJsWUQ9TCYmUiUiZlk0OyJBdXA/OCJqaiJeNGVoVyJmJHsiVyIzIiNPLyJoIzMiU2g+ViAjQyZ2JUwmImJlI3oicDIgL25mdzo6dj8+aihkeltrIjRNQiIoRTIibVMtIiUuN0dIIns2IiRmM0JqNHI8fkd0MD9FeVdsIkBUaCJoLStYUiJUOCJhWVR6Lk59XyJwNGcib2BRMFAiL0VUImElPEtYazh2ImYxME4iWSIiLCA5In5fTCJbIltfdyphQ0l5QFYgL3xCeC8iISJeMjgiflMvPVhqd2UvOSVdZzheQVFYRSN9PE4+VU4jSC8xaz49ZlsjfGUlZjc+U3RPczUhT3g/cWpJWUFhYG9pW113UDReUHtfVHUvTGRhMV4+MyhqIkQiYmRdIiA1b348ICJsajpJIlQiWFFEIjJgKVVENHMiKVFkISJHbnUiLyFxIjYybCJ9ZykiZFV3JGIleEUib2BvXSJXIiJWIVkiM31+IlEiWFA0XiQiLFJlIl9iVSJAImQiUCRpIntAKCJLOEN4KCxTIiZMdXRqOlM6fnJZVDcibSJdICYiICJoV1JZOj9FKTpPIiItInZNbCJoIiJBInVePiJeYlItVCIjNmciOkY3TzwiUyU4Ij5lTzxBMzxtKWEiaj88Il0lLCMtKVFTInR3Ik8iWGBxUSJpIkI8XSJ1VkYiPU1rIk5ALyJEXSJvIDAxKnBKImwtcCIkYXQibCFrInhOVnZJIiMoVWsidUFabWZwRiIsXT4iRDpFIkdFViI=&&&j=AAQAAAAF/////5MAP6NKhfiZ1Y4vVPxhvPwVcGvr3UauHN4ou+qUWVSd7tdMtfMTiwxXgcNCso57rBk+6QB96+p5cD6pnxrzp15Q8GsTzhF5hJTn',\n    'ama-client-facts': 'eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMjU2R0NNIiwidHlwIjoiSldFIiwia2lkIjoiMjAyMjEyMTUiLCJpc3MiOiJMSF9PTkVCR0tVSSIsInN1YiI6InBpaSJ9.p3H70HGeys6Wc3XBmFyzTl5I4jfATASi0dwpW5BG8hY87yumf7F3avuZicyc8EFA7f3NHqNFC8BJ2KqeyBQVaatpLLgmg_u1jETx_mGysGk2piUcxZdWw9tc-fFL_UcAqb7IWoWDsX98ioWHtUSQZmsbnMla9uLe8jJxmXwGpxlkM-18ftU_fW2TsMHEixWRSCGih8qVBcdZPDk93CE_6SLupL7YOFI8-C8tVdnKtDdECA_VemSW1R7AZmWK7K4z5AYrA3Xf2UKpTs9aSmFdMj1gtJAOeSL2snD5C8N2twq7chv_MfGFhLFVhyJ5gaWjF7phc0x6FIar38w-7_HjVA.ofxIctLwF77hSxy8.ujdXVqcYBRZnTjGhR3ll6BJDCiYO3csvFUhbxNskDuMSXscDNRuSoOwXcHVcU-sh3VMK-GXJoDatM8OS72F7sXsaJvmqtpquYy4rbsnHS6IS3XmbWKw0oSNkYL83rq0KFJUyi5vD6n3F9btN_O0eNlxqphEOnuQq5AatlaU.sBihcrKHADSwiWRw2V29oA',\n    'ama-client-ref': 'b1e06917-c8be-4138-baa2-f1965d962cf3:1',\n    'authorization': 'Bearer eyJLaWQiOiJMSE1EVy1Qcml2YXRlS2lkIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJrN3pwajRzNmsycWJycjR4aHJ6cWE3eW4iLCJsc3MtdXNlcklkIjoiV1NMSERBUExIRCIsIm9mZmljZUlkIjoiRlJBTEgwOEJDIiwidGVuYW50SWQiOiJMSCIsImFwcGxpY2F0aW9uSWQiOiJMSF9PTkVCS0dVSSIsImtleSI6Ims3enBqNHM2azJxYnJyNHhocnpxYTd5biIsImlzcyI6IkNOPVNDLVBST0QsT1U9TEhNRFciLCJleHAiOjE3NzMxNjM0NTksImlhdCI6MTc3MzE2MjU1OSwianRpIjoiYTkzMDM3YmItODQ3NS00MWJhLTk4MWUtMjEzOWZiZWExMmFkIn0.eoZj8cmCmbVxvy9cxD5g2G3qdw-Kd7kwYRXfO_kZiPIWFmCaPS6GPjJT6sacVKXX9voDZCrmE_zyGeECtAAF6-GYcqL68-cbAccIBIVruc-rWudYz_-mRjHzH4-tMB9Z6YgT2gkIy2NPTTSH4md2Pzz2HnE8m3ATpkj0csl2fDFRVReLI-bqq_kWBnkMFMcTRPWFikM9S5YveG0x5PT57Q8P4lVJ4N4n-IL-XhlMaVpeCKt_8m6PbrdeaXZ1w2ygHmA5C8cIl7ochOBf2RHcBzGMtQvWKSHTbH3-YNFGCXysBGKRG_ZgSoysDzvVAGlTAHKCmdQwEWe6oNDXtkMXaA',\n    'cache-control': 'max-age=0',\n    'callid': 'b1e06917-c8be-4138-baa2-f1965d962cf3:1',\n    'content-type': 'application/json',",
-        "detail": "scripts.lufhansa.lufhansa",
+        "importPath": "scripts.azerbaizan.azerbaizan_airlines",
+        "description": "scripts.azerbaizan.azerbaizan_airlines",
+        "peekOfCode": "PNR = \"8AdSOGV\"\nLAST_NAME = \"CHOdfUHAN\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(True)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')",
+        "detail": "scripts.azerbaizan.azerbaizan_airlines",
         "documentation": {}
     },
     {
-        "label": "response",
+        "label": "LAST_NAME",
         "kind": 5,
+        "importPath": "scripts.azerbaizan.azerbaizan_airlines",
+        "description": "scripts.azerbaizan.azerbaizan_airlines",
+        "peekOfCode": "LAST_NAME = \"CHOdfUHAN\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(True)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")",
+        "detail": "scripts.azerbaizan.azerbaizan_airlines",
+        "documentation": {}
+    },
+    {
+        "label": "get_booking",
+        "kind": 2,
+        "importPath": "scripts.lot_polish.lot_polish_test",
+        "description": "scripts.lot_polish.lot_polish_test",
+        "peekOfCode": "def get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(False)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")\n    opts.set_user_agent(",
+        "detail": "scripts.lot_polish.lot_polish_test",
+        "documentation": {}
+    },
+    {
+        "label": "PNR",
+        "kind": 5,
+        "importPath": "scripts.lot_polish.lot_polish_test",
+        "description": "scripts.lot_polish.lot_polish_test",
+        "peekOfCode": "PNR = \"765D57\"\nLAST_NAME = \"VARDHAN\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(False)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')",
+        "detail": "scripts.lot_polish.lot_polish_test",
+        "documentation": {}
+    },
+    {
+        "label": "LAST_NAME",
+        "kind": 5,
+        "importPath": "scripts.lot_polish.lot_polish_test",
+        "description": "scripts.lot_polish.lot_polish_test",
+        "peekOfCode": "LAST_NAME = \"VARDHAN\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(False)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")",
+        "detail": "scripts.lot_polish.lot_polish_test",
+        "documentation": {}
+    },
+    {
+        "label": "LufthansaBooking",
+        "kind": 6,
         "importPath": "scripts.lufhansa.lufhansa",
         "description": "scripts.lufhansa.lufhansa",
-        "peekOfCode": "response = requests.get(\n    'https://api-shop.lufthansa.com/v1/one-booking/purchase/orders/$orderId$?lastName=$lastName$&showOrderEligibilities=true',\n    cookies=cookies,\n    headers=headers,\n)\nprint(response)",
+        "peekOfCode": "class LufthansaBooking:\n    BASE_URL    = \"https://www.lufthansa.com/in/en/login?deeplinkRedirect=true\"\n    API_PATTERN = \"lufthansa.com\"\n    COOKIE_XPATH = (\n        'xpath://button[contains(text(),\"Accept\") or contains(text(),\"accept\") '\n        'or contains(text(),\"OK\") or contains(@id,\"accept\") or contains(@id,\"cookie\")]'\n    )\n    BOOKING_TAB_XPATH = (\n        'xpath:/html/body/div[2]/div[4]/div[2]/div/div[2]/div/div/div/div[2]'\n        '/div[2]/div/maui-button//button'",
         "detail": "scripts.lufhansa.lufhansa",
         "documentation": {}
     },
@@ -2108,7 +2971,7 @@
         "kind": 2,
         "importPath": "scripts.malaysia.malaysia_test",
         "description": "scripts.malaysia.malaysia_test",
-        "peekOfCode": "def get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(False)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")\n    opts.set_user_agent(",
+        "peekOfCode": "def get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(True)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")\n    opts.set_user_agent(",
         "detail": "scripts.malaysia.malaysia_test",
         "documentation": {}
     },
@@ -2117,7 +2980,7 @@
         "kind": 5,
         "importPath": "scripts.malaysia.malaysia_test",
         "description": "scripts.malaysia.malaysia_test",
-        "peekOfCode": "PNR = \"TCFXYT\"\nLAST_NAME = \"GIANGIULIO\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(False)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')",
+        "peekOfCode": "PNR = \"9QOX8K\"\nLAST_NAME = \"BHATIA\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(True)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')",
         "detail": "scripts.malaysia.malaysia_test",
         "documentation": {}
     },
@@ -2126,8 +2989,17 @@
         "kind": 5,
         "importPath": "scripts.malaysia.malaysia_test",
         "description": "scripts.malaysia.malaysia_test",
-        "peekOfCode": "LAST_NAME = \"GIANGIULIO\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(False)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")",
+        "peekOfCode": "LAST_NAME = \"BHATIA\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(True)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")",
         "detail": "scripts.malaysia.malaysia_test",
+        "documentation": {}
+    },
+    {
+        "label": "QantasBooking",
+        "kind": 6,
+        "importPath": "scripts.qantas.qantas",
+        "description": "scripts.qantas.qantas",
+        "peekOfCode": "class QantasBooking:\n    BASE_URL    = \"https://www.qantas.com/en-in/manage-booking\"\n    API_PATTERN = \"qantas.com\"\n    COOKIE_XPATH = (\n        'xpath://button[contains(text(),\"Accept\") or contains(text(),\"accept\") '\n        'or contains(text(),\"OK\") or contains(@id,\"accept\") or contains(@id,\"cookie\")]'\n    )\n    PNR_XPATH = (\n        'xpath:/html/body/main/div[3]/div[1]/div/div/div/div/form/div[2]/div/div[1]/input'\n    )",
+        "detail": "scripts.qantas.qantas",
         "documentation": {}
     },
     {

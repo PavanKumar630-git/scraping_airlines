@@ -1,34 +1,22 @@
 from DrissionPage import ChromiumPage, ChromiumOptions
 
 
-class LufthansaBooking:
-    BASE_URL    = "https://www.lufthansa.com/in/en/login?deeplinkRedirect=true"
-    API_PATTERN = "lufthansa.com"
-
+class LotPolishBooking:
+    API_PATTERN = "lot.com/api/v1/ibe/purchase/order-retrieve"
+    BASE_URL = "https://www.lot.com/in/en"
     COOKIE_XPATH = (
         'xpath://button[contains(text(),"Accept") or contains(text(),"accept") '
         'or contains(text(),"OK") or contains(@id,"accept") or contains(@id,"cookie")]'
     )
-    BOOKING_TAB_XPATH = (
-        'xpath:/html/body/div[2]/div[4]/div[2]/div/div[2]/div/div/div/div[2]'
-        '/div[2]/div/maui-button//button'
-    )
-    PNR_XPATH = (
-        'xpath://*[@id="dcep-ab8406fc2-91f6-443d-a0f5-1fd5b61ff821'
-        '-loginBOOKING-loginPNRFormQuery.j_bookingcode-input"]'
-    )
-    LAST_NAME_XPATH = (
-        'xpath://*[@id="dcep-ab8406fc2-91f6-443d-a0f5-1fd5b61ff821'
-        '-loginBOOKING-loginPNRFormQuery.j_lastname-input"]'
-    )
-    SUBMIT_XPATH = (
-        'xpath:/html/body/maui-modal[1]/div/div/form/div/div/maui-button//button'
-    )
+    MANAGE_BOOKING_XPATH = 'xpath://*[@id="managebooking2_booker-nav-button"]'
+    PNR_XPATH = 'xpath://*[@formcontrolname="bookingReferenceField"]'
+    LAST_NAME_XPATH = 'xpath://*[@formcontrolname="lastNameField"]'
+    SUBMIT_XPATH = 'xpath://*[@id="ea8617864ef2df2daade3f12b6d2fe0f"]/form/button'
 
     def __init__(self, pnr: str, last_name: str, headless: bool = False):
-        self.pnr       = pnr
+        self.pnr = pnr
         self.last_name = last_name
-        self.headless  = headless
+        self.headless = headless
         self.page: ChromiumPage | None = None
 
     # ------------------------------------------------------------------ #
@@ -71,9 +59,9 @@ class LufthansaBooking:
         except Exception:
             print("No cookie banner found, skipping.")
 
-    def _open_booking_tab(self) -> None:
-        print("Clicking Booking tab...")
-        self.page.ele(self.BOOKING_TAB_XPATH, timeout=20).click(by_js=True)
+    def _open_manage_booking(self) -> None:
+        print("Clicking Manage Booking tab...")
+        self.page.ele(self.MANAGE_BOOKING_XPATH, timeout=20).click(by_js=True)
         self.page.wait(2)
 
     def _fill_form(self) -> None:
@@ -95,11 +83,9 @@ class LufthansaBooking:
         print("Waiting for API response...")
         for packet in self.page.listen.steps(timeout=timeout):
             print(f"URL: {packet.url}")
-            if "lufthansa.com" in packet.url and packet.response:
-                body = packet.response.body
-                if body:
-                    return body
-        raise TimeoutError(f"No Lufthansa API response received within {timeout}s.")
+            if "order-retrieve" in packet.url:
+                return packet.response.body
+        raise TimeoutError(f"No order-retrieve response received within {timeout}s.")
 
     def _close(self) -> None:
         if self.page:
@@ -110,13 +96,13 @@ class LufthansaBooking:
     #  Public interface                                                    #
     # ------------------------------------------------------------------ #
 
-    def fetch(self) -> dict:
-        """Open Lufthansa login, submit booking credentials, return API response body."""
+    def get_booking(self) -> dict:
+        """Open the LOT Polish website, submit the booking form, and return the API response body."""
         try:
             self._init_page()
             self._open_site()
             self._accept_cookies()
-            self._open_booking_tab()
+            self._open_manage_booking()
             self._fill_form()
             self._submit_form()
             return self._wait_for_response()
@@ -136,10 +122,10 @@ class LufthansaBooking:
 #  Entry point                                                            #
 # ---------------------------------------------------------------------- #
 
-if __name__ == "__main__":
-    PNR       = "7U42W6"
-    LAST_NAME = "BALAJI"
+# if __name__ == "__main__":
+#     PNR = "765D57"
+#     LAST_NAME = "VARDHAN"
 
-    scraper = LufthansaBooking(PNR, LAST_NAME)
-    data    = scraper.fetch()
-    print(data)
+#     scraper = LotPolishBooking(PNR, LAST_NAME)
+#     data = scraper.get_booking()
+#     print(data)

@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     "app.scraping.srilanka_airlines",
     "app.scraping.malaysia_airlines",
     "app.scraping.azerbaijan_airlines",
+    "app.scraping.lotpolish_airlines",
 
  
 
