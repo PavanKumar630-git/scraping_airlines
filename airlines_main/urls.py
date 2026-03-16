@@ -47,4 +47,7 @@ urlpatterns = [
     # Airline specific
     path("airindia/", include("app.scraping.airindia_airlines.urls")),
     path("srilanka/", include("app.scraping.srilanka_airlines.urls")),
+    path("malaysia/", include("app.scraping.malaysia_airlines.urls")),
+    path("azerbaijan/", include("app.scraping.azerbaijan_airlines.urls")),
+
 ]

@@ -210,12 +210,36 @@
         "documentation": {}
     },
     {
+        "label": "requests",
+        "importPath": "curl_cffi",
+        "description": "curl_cffi",
+        "isExtraImport": true,
+        "detail": "curl_cffi",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumPage",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
+        "documentation": {}
+    },
+    {
+        "label": "ChromiumOptions",
+        "importPath": "DrissionPage",
+        "description": "DrissionPage",
+        "isExtraImport": true,
+        "detail": "DrissionPage",
         "documentation": {}
     },
     {
@@ -2077,6 +2101,33 @@
         "description": "scripts.lufhansa.lufhansa",
         "peekOfCode": "response = requests.get(\n    'https://api-shop.lufthansa.com/v1/one-booking/purchase/orders/$orderId$?lastName=$lastName$&showOrderEligibilities=true',\n    cookies=cookies,\n    headers=headers,\n)\nprint(response)",
         "detail": "scripts.lufhansa.lufhansa",
+        "documentation": {}
+    },
+    {
+        "label": "get_booking",
+        "kind": 2,
+        "importPath": "scripts.malaysia.malaysia_test",
+        "description": "scripts.malaysia.malaysia_test",
+        "peekOfCode": "def get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(False)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")\n    opts.set_user_agent(",
+        "detail": "scripts.malaysia.malaysia_test",
+        "documentation": {}
+    },
+    {
+        "label": "PNR",
+        "kind": 5,
+        "importPath": "scripts.malaysia.malaysia_test",
+        "description": "scripts.malaysia.malaysia_test",
+        "peekOfCode": "PNR = \"TCFXYT\"\nLAST_NAME = \"GIANGIULIO\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(False)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')",
+        "detail": "scripts.malaysia.malaysia_test",
+        "documentation": {}
+    },
+    {
+        "label": "LAST_NAME",
+        "kind": 5,
+        "importPath": "scripts.malaysia.malaysia_test",
+        "description": "scripts.malaysia.malaysia_test",
+        "peekOfCode": "LAST_NAME = \"GIANGIULIO\"\ndef get_booking():\n    opts = ChromiumOptions()\n    opts.auto_port()\n    opts.headless(False)\n    opts.set_argument('--window-size=1920,1080')\n    opts.set_argument('--disable-gpu')\n    opts.set_argument('--no-sandbox')\n    opts.set_argument('--disable-dev-shm-usage')\n    opts.set_argument(\"--disable-blink-features=AutomationControlled\")",
+        "detail": "scripts.malaysia.malaysia_test",
         "documentation": {}
     },
     {
